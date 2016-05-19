@@ -1,0 +1,433 @@
+/* !== Legacy Screen */
+/* NOTE: Master SASS file for screen display. Only add @import statements. No SASS/CSS code please */
+/*
+
+DEPENDENCIES
+============
+
+The following Tools are required to process this Sass framework correctly:
+
+* Sass 3.3
+* Autoprefixer
+
+*/
+/* Framework - Variables, Mixins, Functions, Resets, Placeholders */
+/* != Framework - ALL */
+/*
+NOTE: Imports all other files in the /framework folder
+      Files should be imported in the order indicated
+*/
+/* !== Global Settings */
+/* != Framework - Global Typography Settings */
+/* !== Typography */
+/* ! Font Families */
+/* ! Font Weights */
+/* ! Base Font Values - used as the default for things like basic paragraphs, lists, etc. */
+/* != Framework - Global Colour Settings */
+/*
+
+HOW TO USE COLOUR VARIABLES IN THIS SASS PROJECT
+------------------------------------------------
+
+There are a couple of options available to you:
+
+================
+1-STEP SYSTEM
+================
+
+1. Define your colour palette as a set of COLOUR-DESCRIPTIVE VARIABLES (e.g. $clrPaleBlue)
+2. Use these COLOUR-DESCRIPTIVE VARIABLES directly, throughout the project's other .scss files
+
+RESULT: Colours are presented in the code in a much more readable and meaningful format
+
+BEST FOR: Projects with one theme
+
+
+================
+2-STEP SYSTEM
+================
+
+1. Define your colour palette as a set of COLOUR-DESCRIPTIVE VARIABLES (e.g. $clrPaleBlue)
+2. Define a set of SEMANTIC-STRUCTURAL VARIABLES to use throughout your Sass files (e.g. $clrPageHeaderBackground)
+3. Set the SEMANTIC VARIABLES using the COLOUR-DESCRIPTIVE VARIABLES in this file only
+
+RESULT: Colours are managed in one location and colour changes will not require renaming variables throughout the set of Sass files
+
+BEST FOR: Projects that involve multiple themes or skins
+
+*/
+/* !== COLOUR-DESCRIPTIVE VARIABLES */
+/* ! Black to White */
+/* ! Blues */
+/* ! Reds */
+/* ! Greens */
+/* ! Oranges */
+/* !== Gradients */
+/* !=== SEMANTIC VARIABLES */
+/* NOTE: Use COLOUR-DESCRIPTIVE VARIABLES to define these. Don't add hex/rgb/rgba values directly */
+/* Document */
+/* Forms */
+/* != Global - Media Queries */
+/* !== Breakpoints */
+/*
+What are the parameter values for each Media Query?
+- Set these values without units, these'll be added in the mixin
+*/
+/*
+
+MQ Names - Star Wars Theme
+==========================
+
+Use the A-List names for main breakpoints and the B-List names for BPs for more specific rules and edge cases
+
+Small
+------------
+
+- A-List
+$bpYoda
+$bpArtoo
+
+- B-List
+$bpEwok
+$bpJawa
+
+Medium
+------------
+
+- A-List
+$bpLeia
+$bpLuke
+$bpHan
+$bpThreepio
+
+- B-List
+$bpLando
+$bpBoba
+$bpLobot
+
+
+Large
+------------
+
+- A-List
+$bpVader
+$bpChewie
+
+- B-List
+$bpJabba
+$bpWampa
+$bpRancor
+$bpSarlacc
+
+
+Very Large
+------------
+
+- A-List
+$bpATAT
+$bpStarDestroyer
+$bpDeathStar
+
+*/
+/* !== Resets */
+/**
+ * Eric Meyer's Reset CSS v2.0 (http://meyerweb.com/eric/tools/css/reset/)
+ * http://cssreset.com
+ */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+sub {
+  vertical-align: sub; }
+
+sup {
+  vertical-align: super; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* ----------------------------------------------------------------------------------------------------
+
+Super Form Reset
+
+A couple of things to watch out for:
+
+- IE8: If a text input doesn't have padding on all sides or none the text won't be centered.
+- The default border sizes on text inputs in all UAs seem to be slightly different. You're better off using custom borders.
+- You NEED to set the font-size and family on all form elements
+- Search inputs need to have their appearance reset and the box-sizing set to content-box to match other UAs
+- You can style the upload button in webkit using ::-webkit-file-upload-button
+- ::-webkit-file-upload-button selectors can't be used in the same selector as normal ones. FF and IE freak out.
+- IE: You don't need to fake inline-block with labels and form controls in IE. They function as inline-block.
+- By turning off ::-webkit-search-decoration, it removes the extra whitespace on the left on search inputs
+
+----------------------------------------------------------------------------------------------------*/
+input,
+label,
+select,
+button,
+textarea {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  display: inline-block;
+  vertical-align: middle;
+  white-space: normal;
+  background: none;
+  line-height: 1;
+  /* Browsers have different default form fonts */
+  font-size: 20px;
+  font-family: Arial; }
+
+/* Remove the stupid outer glow in Webkit */
+input:focus {
+  outline: 0; }
+
+/* Box Sizing Reset
+-----------------------------------------------*/
+/* All of our custom controls should be what we expect them to be */
+/* These elements are usually rendered a certain way by the browser */
+/* Text Inputs
+-----------------------------------------------*/
+/* Button Controls
+-----------------------------------------------*/
+input[type=checkbox],
+input[type=radio] {
+  width: 13px;
+  height: 13px; }
+
+/* File Uploads
+-----------------------------------------------*/
+/* Search Input
+-----------------------------------------------*/
+/* Make webkit render the search input like a normal text field */
+input[type=search] {
+  -webkit-appearance: textfield;
+  -webkit-box-sizing: content-box; }
+
+/* Turn off the recent search for webkit. It adds about 15px padding on the left */
+::-webkit-search-decoration {
+  display: none; }
+
+/* Buttons
+-----------------------------------------------*/
+button,
+input[type="reset"],
+input[type="button"],
+input[type="submit"] {
+  /* Fix IE7 display bug */
+  overflow: visible;
+  width: auto; }
+
+/* IE8 and FF freak out if this rule is within another selector */
+::-webkit-file-upload-button {
+  padding: 0;
+  border: 0;
+  background: none; }
+
+/* Textarea
+-----------------------------------------------*/
+textarea {
+  /* Move the label to the top */
+  vertical-align: top;
+  /* Turn off scroll bars in IE unless needed */
+  overflow: auto; }
+
+/* Selects
+-----------------------------------------------*/
+select[multiple] {
+  /* Move the label to the top */
+  vertical-align: top; }
+
+/* != Drupal Reset */
+/* NOTE: Styles for resetting the Drupal system CSS */
+/* !== Navigation */
+ul.menu {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  ul.menu li, ul.menu li.leaf {
+    padding: 0;
+    margin: 0;
+    background: none;
+    list-style: none; }
+
+/* !== Forms */
+.resizable-textarea .grippie {
+  display: none; }
+
+/* !== Modules */
+/* != Base Module - UNITS */
+/* CONVERT PIXELS TO EMS */
+/*
+Parameters: @pixels value (no units), optional @context value (no units) e.g. if you are calculating padding on an element that has a font size applied already.
+*/
+/* != Base Module - MATHS */
+/* !== Add 1 to a number */
+/* !== Subtract 1 from a number */
+/* != Framework Module - MEDIA QUERIES */
+/*
+ * @mixins
+ */
+/* !== Media Query mixin - includes Retina display */
+/* ! Framework Module - TYPOGRAPHY */
+/*
+ * @mixins
+ */
+/* !== Hide Text */
+/* != Framework Module - LAYOUT */
+/*  !== Fixed Width Layout */
+/* !== Absolute Positing - Full Cover */
+/* !== Set opacity with legacy browser fallbacks */
+/* != Placeholders - Layout - CLEARFIX */
+/* !== Modern Version - IE8+ */
+/*
+ * Placeholder version of the modern clearfix mixin
+ */
+/* !== Legacy Version - IE6/7+ */
+/*
+ * Legacy support for inline-block in IE7 (maybe IE6)
+ */
+/* !== Grid Width Calculator */
+/* != Framework Module - Grid */
+/* != Framework Module - BUTTONS */
+/* !== Basic Button Style */
+/* Placeholder for buttonBase @mixin */
+/* Mixin for Basic Button Styles */
+/* != Framework Module - Media */
+/* != Framework Module - Sprites */
+/*
+ * @variables
+ */
+/* Define the @1x and @2x Sprite files to use */
+/* Define the Sprite size - this is the @1x version's dimensions */
+/*
+ * @mixins
+ */
+/* Add basic Sprite CSS */
+/* Add CSS for sprite image as :before/:after content */
+/*
+ * @placeholders
+ */
+/* Provide a placeholder version of the Sprite File @mixin */
+/* Provide a placeholder version of the Sprite Base @mixin */
+/* !== Framework Module - STATES */
+/*
+ * @placeholders
+ */
+/* !== Hidden */
+/* !== Visible */
+/* != Module - Design Elements - reusable design elements that many components share */
+/* !== Vertical Hairline Divider */
+/* !== Global Rules */
+/* != Document */
+/* Rules for <html> and <body> go here */
+body {
+  color: #3c3c44;
+  background: #fff;
+  font-size: 100%;
+  font-family: "Avenir Next", "Avenir", Verdana, serif;
+  font-weight: 300;
+  line-height: 1.5; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700; }
+
+/* != Grid - Flexbox-based w/ legacy fallbacks */
+.gd_Promos,
+.gd_List {
+  float: left;
+  width: 100%; }
+  .gd_Promos > *,
+  .gd_List > * {
+    float: left; }
+
+.gd_Group {
+  display: table;
+  width: 100%; }
+  .gd_Group > * {
+    display: table-cell;
+    vertical-align: top; }
+
+.gd_NaturalGroup {
+  width: 100%; }
+  .gd_NaturalGroup > * {
+    display: inline-block; }
+
+.gd_Group--pair > * {
+  width: 50%; }
+
+.gd_Spotlight > * {
+  width: 50%;
+  max-width: 100%; }
+
+.gd_SpotlightInMix > * {
+  width: 25vw; }
+
+.gd_Overlay > * {
+  max-width: 100%;
+  display: block; }
+
+.gd_Footer {
+  width: 100%;
+  display: inline-block;
+  clear: both; }
+
+.gd_PriSec {
+  width: 100%;
+  margin-bottom: 38px; }
+  .gd_PriSec:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .gd_PriSec .gd_Pri,
+  .gd_PriSec .gd_Sec {
+    display: block;
+    padding: 0 8px; }
+  .gd_PriSec .gd_Pri {
+    width: 66.666%;
+    float: right; }
+  .gd_PriSec .gd_Sec {
+    width: 33.333%; }
+
+/* !== Navigation */

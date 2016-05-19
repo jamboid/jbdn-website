@@ -1,0 +1,19 @@
+/* != Document */
+
+/* Rules for <html> and <body> go here */
+body {
+  color:$clrDarkGrey;
+  background:$clrWhite;
+  font-size:100%;
+  font-family:$bodyfontfamily;
+  font-weight:$normal;
+  line-height:1.5;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-weight:$bold;
+}

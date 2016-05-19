@@ -1,0 +1,11 @@
+/* != Module - Design Elements - reusable design elements that many components share */
+
+/* !== Vertical Hairline Divider */
+
+@mixin hairlineVert {
+  content:"";
+  display: block;
+  position: absolute;
+  width: 1px;
+  left:50%;  
+}

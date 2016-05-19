@@ -1,0 +1,30 @@
+/* != Framework Module - BUTTONS */
+
+/* !== Basic Button Style */
+@mixin buttonBase {
+  font-size:20px;
+  display: inline-block;
+  padding:em(10,20) em(30,20);
+  text-decoration: none;
+  transition:all 0.1s linear;
+  cursor:pointer;
+  border-width:1px;
+  border-style:solid;
+  text-align: center;
+}
+
+/* Placeholder for buttonBase @mixin */
+%buttonBase {
+  @include buttonBase;
+}
+
+/* Mixin for Basic Button Styles */
+@mixin basicButton($color, $background, $hoverColor: $color, $hoverBackground: darken($background, 12)) {
+  color:$color;
+  background:$background;
+
+  &:hover, &:focus, &:active {
+    color:$hoverColor;
+    background:$hoverBackground;
+  }
+}
