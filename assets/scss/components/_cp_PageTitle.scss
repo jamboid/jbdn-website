@@ -1,0 +1,14 @@
+/* != Component - Page Title */
+
+.cp_PageTitle {
+  width:100%;
+  max-width:1000px;
+  margin:em(40) auto;
+
+  &__title {
+    display: inline-block;
+    padding:0 10px;
+    color:$clrBlack;
+    background:$clrWhite;
+  }
+}

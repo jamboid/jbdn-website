@@ -373,6 +373,15 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
+/* != Headings */
+.hd_Chewie {
+  font-size: 3.125em;
+  font-weight: 700; }
+
+.hd_Han {
+  font-size: 1.875em;
+  font-weight: 600; }
+
 /* != Grid - Flexbox-based w/ legacy fallbacks */
 [class*=gd_] {
   display: -webkit-box;
@@ -501,6 +510,44 @@ h1, h2, h3, h4, h5, h6 {
         -webkit-order: 3;
             -ms-flex-order: 3;
                 order: 3; } }
+
+/* != Stage - Homepage */
+.st_Homepage {
+  min-height: 100vh; }
+
+/* != Layout - Field - Page Title */
+.fd_PageTitle {
+  min-height: 40vh;
+  background: #3c3c44;
+  color: #fff;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+/* != Component - Page Title */
+.cp_PageTitle {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2.5em auto; }
+  .cp_PageTitle__title {
+    display: inline-block;
+    padding: 0 10px;
+    color: #000;
+    background: #fff; }
+
+/* != Layout - Field - Page Info */
+.fd_PageInfo {
+  min-height: 60vh;
+  background: #dcdcdc;
+  color: #000; }
+
+/* != Component - Homepage Introduction */
+.cp_Info {
+  width: 100%;
+  max-width: 1000px;
+  margin: 2.5em auto;
+  padding: 0 10px; }
 
 /* !== Navigation */
 

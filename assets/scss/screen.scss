@@ -23,8 +23,13 @@ $legacy: false;
 
 /* !== Global Rules */
 @import "components/document";
+@import "components/hd_Headings";
 @import "components/gd_Layout";
-@import "components/cp_Intro";
+@import "components/st_Homepage";
+@import "components/fd_PageTitle";
+@import "components/cp_PageTitle";
+@import "components/fd_PageInfo";
+@import "components/cp_Info";
 
 
 /* !== Navigation */
