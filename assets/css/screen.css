@@ -375,12 +375,20 @@ h1, h2, h3, h4, h5, h6 {
 
 /* != Headings */
 .hd_Chewie {
-  font-size: 3.125em;
-  font-weight: 700; }
+  font-size: 1.875em;
+  font-weight: 700;
+  line-height: 1; }
 
 .hd_Han {
-  font-size: 1.875em;
+  font-size: 1.25em;
   font-weight: 600; }
+
+/* If media queries are supported... */
+@media screen and (min-width: 30.0625em) {
+  .hd_Chewie {
+    font-size: 6.25vw; }
+  .hd_Han {
+    font-size: 4.1666666667vw; } }
 
 /* != Grid - Flexbox-based w/ legacy fallbacks */
 [class*=gd_] {
@@ -495,7 +503,7 @@ h1, h2, h3, h4, h5, h6 {
             order: 2; }
   .gd_PriSec .gd_Sec {
     width: 33.333%; }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 56.25em) {
     .gd_PriSec {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -528,13 +536,18 @@ h1, h2, h3, h4, h5, h6 {
 /* != Component - Page Title */
 .cp_PageTitle {
   width: 100%;
-  max-width: 1000px;
-  margin: 2.5em auto; }
+  max-width: 90vw;
+  margin: 5vw auto; }
   .cp_PageTitle__title {
     display: inline-block;
-    padding: 0 10px;
+    padding: 10px;
     color: #000;
     background: #fff; }
+
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .cp_PageTitle {
+    max-width: 90vw; } }
 
 /* != Layout - Field - Page Info */
 .fd_PageInfo {
@@ -545,9 +558,14 @@ h1, h2, h3, h4, h5, h6 {
 /* != Component - Homepage Introduction */
 .cp_Info {
   width: 100%;
-  max-width: 1000px;
-  margin: 2.5em auto;
+  max-width: 90vw;
+  margin: 4vw auto;
   padding: 0 10px; }
+
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .cp_Info {
+    max-width: 90vw; } }
 
 /* !== Navigation */
 

@@ -2,7 +2,13 @@
 
 .cp_Info {
   width:100%;
-  max-width:1000px;
-  margin:em(40) auto;
+  max-width:90vw;
+  margin:4vw auto;
   padding:0 10px;
+}
+
+@include mq(plusOne($bpVader), $limit: min) {
+  .cp_Info {
+    max-width:90vw;
+  }
 }

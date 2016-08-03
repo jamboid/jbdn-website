@@ -1,11 +1,23 @@
 /* != Headings */
 
 .hd_Chewie {
-  font-size:em(50);
+  font-size:em(30);
   font-weight:$bold;
+  line-height: 1;
 }
 
 .hd_Han {
-  font-size:em(30);
+  font-size:em(20);
   font-weight:$semibold;
+}
+
+
+@include mq(plusOne($bpArtoo), $limit: min) {
+  .hd_Chewie {
+    font-size:vw(30,$bpArtoo);
+  }
+
+  .hd_Han {
+    font-size:vw(20,$bpArtoo);
+  }
 }

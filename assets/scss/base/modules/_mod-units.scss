@@ -24,6 +24,10 @@ Parameters: @pixels value (no units), optional @context value (no units) e.g. if
   @return #{$pixels}px;
 }
 
+@function vw($pixels,$context) {
+  @return #{($pixels/$context)*100}vw;
+}
+
 //
 // @mixins
 //

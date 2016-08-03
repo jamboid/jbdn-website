@@ -2,13 +2,19 @@
 
 .cp_PageTitle {
   width:100%;
-  max-width:1000px;
-  margin:em(40) auto;
+  max-width:90vw;
+  margin:5vw auto;
 
   &__title {
     display: inline-block;
-    padding:0 10px;
+    padding:10px;
     color:$clrBlack;
     background:$clrWhite;
+  }
+}
+
+@include mq(plusOne($bpVader), $limit: min) {
+  .cp_PageTitle {
+    max-width:90vw;
   }
 }
