@@ -1,8 +1,9 @@
 /* != Layout - Field - Page Title */
 
 .fd_PageTitle {
-  min-height:40vh;
+  //min-height:40vh;
   background:$clrDarkGrey;
   color:$clrWhite;
+  flex-grow:1;
   justify-content: flex-end;
 }
