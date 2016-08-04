@@ -1,0 +1,27 @@
+/* != Text - Intro Styles */
+
+.tx_Intro {
+  p {
+    font-size:em(20);
+    margin:0 0 1em;
+    font-weight:$semibold;
+  }
+
+  a {
+    color:inherit;
+  }
+
+  strong,
+  a {
+    font-weight:$bold;
+  }
+}
+
+/* !== Breakpoint - Artoo */
+@include mq(plusOne($bpArtoo), $limit: min) {
+  .tx_Intro {
+    p {
+      font-size:vw(20,$bpArtoo);
+    }
+  }
+}

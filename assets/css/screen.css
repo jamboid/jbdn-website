@@ -390,6 +390,25 @@ h1, h2, h3, h4, h5, h6 {
   .hd_Han {
     font-size: 4.1666666667vw; } }
 
+/* != Text - Intro Styles */
+.tx_Intro p {
+  font-size: 1.25em;
+  margin: 0 0 1em;
+  font-weight: 600; }
+
+.tx_Intro a {
+  color: inherit; }
+
+.tx_Intro strong,
+.tx_Intro a {
+  font-weight: 700; }
+
+/* !== Breakpoint - Artoo */
+/* If media queries are supported... */
+@media screen and (min-width: 30.0625em) {
+  .tx_Intro p {
+    font-size: 4.1666666667vw; } }
+
 /* != Grid - Flexbox-based w/ legacy fallbacks */
 [class*=gd_] {
   display: -webkit-box;
