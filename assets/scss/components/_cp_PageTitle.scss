@@ -3,7 +3,8 @@
 .cp_PageTitle {
   width:100%;
   max-width:90vw;
-  margin:5vw auto;
+  margin:0 auto;
+  padding:5vw 0;
 
   &__title {
     display: inline-block;
@@ -16,6 +17,6 @@
 @include mq(plusOne($bpVader), $limit: min) {
   .cp_PageTitle {
     max-width:90vw;
-    margin:50px auto;
+    padding:50px 0;
   }
 }
