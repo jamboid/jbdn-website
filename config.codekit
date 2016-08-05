@@ -2,6 +2,17 @@
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
 "creatorBuild": "19127",
 "files": {
+	"\/assets\/css\/img\/jb_pixel_face.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 22319,
+		"inputAbbreviatedPath": "\/assets\/css\/img\/jb_pixel_face.png",
+		"outputAbbreviatedPath": "\/assets\/css\/img\/jb_pixel_face.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/css\/legacy_screen.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -421,6 +432,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/assets\/kit\/_partials\/_social_links.kit": {
+		"fileType": 2048,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/kit\/_partials\/_social_links.kit",
+		"outputAbbreviatedPath": "\/assets\/kit\/_partials\/_social_links.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/assets\/kit\/index.kit": {
 		"fileType": 2048,
 		"ignore": 0,
@@ -750,6 +770,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/scss\/components\/_cp_Social.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/scss\/components\/_cp_Social.scss",
+		"outputAbbreviatedPath": "\/assets\/scss\/css\/_cp_Social.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/scss\/components\/_document.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -857,8 +893,8 @@
 		"outputAbbreviatedPath": "\/assets\/css\/legacy_screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 1,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 0,
 		"shouldRunBless": 0,
 		"useLibsass": 1
 		},
@@ -873,10 +909,10 @@
 		"outputAbbreviatedPath": "\/assets\/css\/screen.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"shouldRunAutoprefixer": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
 		"shouldRunBless": 0,
-		"useLibsass": 0
+		"useLibsass": 1
 		},
 	"\/index.html": {
 		"fileType": 8192,
@@ -890,7 +926,7 @@
 	},
 "hooks": [
 	],
-"lastSavedByUser": "Jamie Boyd",
+"lastSavedByUser": "Jamie",
 "manualImportLinks": {
 	},
 "projectAttributes": {

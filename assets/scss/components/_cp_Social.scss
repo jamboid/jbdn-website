@@ -1,0 +1,50 @@
+/* != Component - Social Links */
+
+.cp_Social {
+  &__linksList {
+    display: inline-block;
+    border-radius:50px;
+  }
+
+  &__linkItem {
+    display: inline-block;
+  }
+
+  &__link {
+    color:inherit;
+    margin-right:10px;
+    padding:15px;
+    border-radius:50px;
+    display: inline-block;
+    background:$clrVeryLightGrey;
+    line-height: 0;
+
+    &:hover, &:focus, &:active {
+      background:$clrDarkGrey;
+
+      path {
+        fill:$clrWhite !important;
+      }
+    }
+  }
+
+  &__svg {
+    width: 45px;
+    height: 45px;
+  }
+}
+
+
+@include mq($bpArtoo) {
+  .cp_Social {
+    &__svg {
+      width: 30px;
+      height: 30px;
+    }
+
+    &__link {
+      padding: 10px;
+      display: block;
+    }
+  }
+}

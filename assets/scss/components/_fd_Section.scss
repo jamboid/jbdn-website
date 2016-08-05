@@ -2,7 +2,8 @@
 
 .fd_Section {
   &--title {
-    background:$clrPrimary;
+    background:$clrPrimary url(img/jb_pixel_face.png) bottom center no-repeat;
+    background-size:cover;
     flex-grow:1;
     justify-content: flex-end;
   }
