@@ -58,15 +58,7 @@ BEST FOR: Projects that involve multiple themes or skins
 */
 /* !== COLOUR-DESCRIPTIVE VARIABLES */
 /* ! Black to White */
-/* ! Blues */
-/* ! Reds */
-/* ! Greens */
-/* ! Oranges */
-/* !== Gradients */
-/* !=== SEMANTIC VARIABLES */
-/* NOTE: Use COLOUR-DESCRIPTIVE VARIABLES to define these. Don't add hex/rgb/rgba values directly */
-/* Document */
-/* Forms */
+/* ! Theme Colours */
 /* != Global - Media Queries */
 /* !== Breakpoints */
 /*
@@ -373,6 +365,30 @@ body {
 h1, h2, h3, h4, h5, h6 {
   font-weight: 700; }
 
+/* != Headings */
+.hd_Chewie {
+  font-size: 1.875em;
+  font-weight: 700;
+  line-height: 1; }
+
+.hd_Han {
+  font-size: 1.25em;
+  font-weight: 600; }
+
+/* != Text - Intro Styles */
+.tx_Intro p {
+  font-size: 1.25em;
+  margin: 0 0 1em;
+  font-weight: 600; }
+
+.tx_Intro a {
+  color: inherit; }
+
+.tx_Intro strong,
+.tx_Intro a {
+  font-weight: 700; }
+
+/* !== Breakpoint - Artoo */
 /* != Grid - Flexbox-based w/ legacy fallbacks */
 .gd_Promos,
 .gd_List {
@@ -430,5 +446,58 @@ h1, h2, h3, h4, h5, h6 {
   .gd_PriSec .gd_Sec {
     width: 33.333%; }
 
+/* != Stage - Homepage */
+.st_Homepage {
+  min-height: 100vh; }
+
+/* != Layout - Field - Page Title */
+.fd_Section--title {
+  background: #A71010;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.fd_Section--info {
+  background: #FAFAFA;
+  color: #000; }
+
+/* != Layout - Field - Page Title */
+.fd_Section--title {
+  background: #A71010;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end; }
+
+.fd_Section--info {
+  background: #FAFAFA;
+  color: #000; }
+
+/* != Component - Page Title */
+.cp_PageTitle {
+  width: 100%;
+  max-width: 90vw;
+  margin: 5vw auto; }
+  .cp_PageTitle__title {
+    display: inline-block;
+    padding: 10px;
+    color: #000;
+    background: #FAFAFA; }
+
 /* != Component - Homepage Introduction */
+.cp_Info {
+  width: 100%;
+  max-width: 90vw;
+  margin: 4vw auto;
+  padding: 10px; }
+
 /* !== Navigation */

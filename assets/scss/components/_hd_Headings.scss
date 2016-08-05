@@ -11,6 +11,11 @@
   font-weight:$semibold;
 }
 
+@include mq($bpArtoo) {
+  .hd_Chewie {
+    font-size:vw(30,$bpArtoo);
+  }
+}
 
 @include mq(plusOne($bpArtoo), $limit: min) {
   .hd_Chewie {
@@ -19,5 +24,15 @@
 
   .hd_Han {
     font-size:vw(20,$bpArtoo);
+  }
+}
+
+@include mq(plusOne($bpVader), $limit: min) {
+  .hd_Chewie {
+    font-size:em(62.5);
+  }
+
+  .hd_Han {
+    font-size:em(42);
   }
 }

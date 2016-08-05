@@ -17,11 +17,27 @@
   }
 }
 
+@include mq($bpArtoo) {
+  .tx_Intro {
+    p {
+      font-size:em(18);
+    }
+  }
+}
+
 /* !== Breakpoint - Artoo */
 @include mq(plusOne($bpArtoo), $limit: min) {
   .tx_Intro {
     p {
       font-size:vw(20,$bpArtoo);
+    }
+  }
+}
+
+@include mq(plusOne($bpVader), $limit: min) {
+  .tx_Intro {
+    p {
+      font-size:em(42);
     }
   }
 }

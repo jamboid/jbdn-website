@@ -21,7 +21,13 @@ $legacy: true;
 
 /* !== Global Rules */
 @import "components/document";
+@import "components/hd_Headings";
+@import "components/tx_Intro";
 @import "components/gd_Layout";
-@import "components/cp_Intro"; 
+@import "components/st_Homepage";
+@import "components/fd_Section";
+@import "components/fd_Section";
+@import "components/cp_PageTitle";
+@import "components/cp_Info";
 
 /* !== Navigation */

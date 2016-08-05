@@ -49,38 +49,9 @@ $clrVeryLightGrey: #dcdcdc;
 $clrOffWhite: #FAFAFA;
 $clrWhite: #fff;
 
-/* ! Blues */
-$clrBlue: #428BCA;
-$clrLightBlue:#78a0da;
+$clrGreen:#ABEF21;
+$clrRed:#A71010;
 
-/* ! Reds */
-$clrRed:#EE495B;
-
-/* ! Greens */
-$clrGreen: #87AE39;
-
-/* ! Oranges */
-$clrOrange:#bc4100;
-
-/* !== Gradients */
-
-$clrDarkGreyGradient: linear-gradient($clrGrey, $clrDarkGrey);
-$clrDarkGreyGradientHover: linear-gradient(darken($clrGrey,10), darken($clrDarkGrey, 10));
-
-$clrBlueGradient:linear-gradient(lighten($clrBlue, 15), $clrBlue);
-$clrBlueGradientHover:linear-gradient($clrBlue, darken($clrBlue, 15));
-
-/* !=== SEMANTIC VARIABLES */
-/* NOTE: Use COLOUR-DESCRIPTIVE VARIABLES to define these. Don't add hex/rgb/rgba values directly */
-
-
-$clrSchemeColour: $clrGrey;
-
-/* Document */
-$clrBodyBack: $clrDarkGrey;
-$clrBodyText: $clrBlack;
-
-/* Forms */
-$clrFormsFieldBack: $clrLightGrey;
-$clrFormsSearchBorder:$clrLightGrey;
-$clrFormsFileBack:$clrVeryLightGrey;
+/* ! Theme Colours */
+$clrPrimary:$clrRed;
+$clrSecondary:$clrOffWhite;

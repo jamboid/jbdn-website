@@ -1,3 +1,4 @@
+/*# sourceMappingURL=screen.css.map */
 /* !== Screen */
 /* NOTE: Master SASS file for screen display. Only add @import statements. No SASS/CSS code please */
 /*
@@ -58,15 +59,7 @@ BEST FOR: Projects that involve multiple themes or skins
 */
 /* !== COLOUR-DESCRIPTIVE VARIABLES */
 /* ! Black to White */
-/* ! Blues */
-/* ! Reds */
-/* ! Greens */
-/* ! Oranges */
-/* !== Gradients */
-/* !=== SEMANTIC VARIABLES */
-/* NOTE: Use COLOUR-DESCRIPTIVE VARIABLES to define these. Don't add hex/rgb/rgba values directly */
-/* Document */
-/* Forms */
+/* ! Theme Colours */
 /* != Global - Media Queries */
 /* !== Breakpoints */
 /*
@@ -384,76 +377,67 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600; }
 
 /* If media queries are supported... */
+@media screen and (max-width: 30em) {
+  .hd_Chewie {
+    font-size: 6.25vw; } }
+/* If media queries are supported... */
 @media screen and (min-width: 30.0625em) {
   .hd_Chewie {
     font-size: 6.25vw; }
+
   .hd_Han {
     font-size: 4.1666666667vw; } }
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .hd_Chewie {
+    font-size: 3.90625em; }
 
+  .hd_Han {
+    font-size: 2.625em; } }
 /* != Text - Intro Styles */
 .tx_Intro p {
   font-size: 1.25em;
   margin: 0 0 1em;
   font-weight: 600; }
-
 .tx_Intro a {
   color: inherit; }
-
 .tx_Intro strong,
 .tx_Intro a {
   font-weight: 700; }
 
+/* If media queries are supported... */
+@media screen and (max-width: 30em) {
+  .tx_Intro p {
+    font-size: 1.125em; } }
 /* !== Breakpoint - Artoo */
 /* If media queries are supported... */
 @media screen and (min-width: 30.0625em) {
   .tx_Intro p {
     font-size: 4.1666666667vw; } }
-
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .tx_Intro p {
+    font-size: 2.625em; } }
 /* != Grid - Flexbox-based w/ legacy fallbacks */
 [class*=gd_] {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
   display: flex; }
 
 .gd_Promos,
 .gd_List {
-  -webkit-flex-wrap: wrap;
-      -ms-flex-wrap: wrap;
-          flex-wrap: wrap;
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-              -ms-grid-row-align: stretch;
-          align-items: stretch; }
+  flex-wrap: wrap;
+  align-items: stretch; }
 
 .gd_Group {
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-              -ms-grid-row-align: stretch;
-          align-items: stretch; }
+  align-items: stretch; }
 
 .gd_NaturalGroup {
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-              -ms-grid-row-align: flex-start;
-          align-items: flex-start; }
+  align-items: flex-start; }
 
 .gd_Fill {
-  -webkit-box-align: stretch;
-  -webkit-align-items: stretch;
-      -ms-flex-align: stretch;
-              -ms-grid-row-align: stretch;
-          align-items: stretch; }
+  align-items: stretch; }
 
 .gd_Natural {
-  -webkit-box-align: start;
-  -webkit-align-items: flex-start;
-      -ms-flex-align: start;
-              -ms-grid-row-align: flex-start;
-          align-items: flex-start; }
+  align-items: flex-start; }
 
 .gd_Group--pair > * {
   width: 50%; }
@@ -466,48 +450,24 @@ h1, h2, h3, h4, h5, h6 {
   width: 25vw; }
 
 .gd_Content {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  flex-direction: column; }
   .gd_Content--last {
-    -webkit-box-pack: end;
-    -webkit-justify-content: flex-end;
-        -ms-flex-pack: end;
-            justify-content: flex-end; }
+    justify-content: flex-end; }
 
 .gd_Overlay {
-  -webkit-box-pack: center;
-  -webkit-justify-content: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-      -ms-flex-align: center;
-              -ms-grid-row-align: center;
-          align-items: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-  -webkit-flex-direction: column;
-      -ms-flex-direction: column;
-          flex-direction: column; }
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; }
   .gd_Overlay > * {
     max-width: 100%; }
 
 .gd_Footer {
   width: 100%;
   display: inline-block;
-  -webkit-box-flex: 0;
-  -webkit-flex: 0 0 100%;
-      -ms-flex: 0 0 100%;
-          flex: 0 0 100%; }
+  flex: 0 0 100%; }
 
 .gd_PriSec {
-  -webkit-box-ordinal-group: 2;
-  -webkit-order: 1;
-      -ms-flex-order: 1;
-          order: 1;
+  order: 1;
   /* If media queries are supported... */
   margin-bottom: 38px; }
   .gd_PriSec .gd_Pri,
@@ -516,45 +476,48 @@ h1, h2, h3, h4, h5, h6 {
     padding: 0 8px; }
   .gd_PriSec .gd_Pri {
     width: 66.666%;
-    -webkit-box-ordinal-group: 3;
-    -webkit-order: 2;
-        -ms-flex-order: 2;
-            order: 2; }
+    order: 2; }
   .gd_PriSec .gd_Sec {
     width: 33.333%; }
   @media screen and (max-width: 56.25em) {
     .gd_PriSec {
-      -webkit-box-orient: vertical;
-      -webkit-box-direction: normal;
-      -webkit-flex-direction: column;
-          -ms-flex-direction: column;
-              flex-direction: column; }
+      flex-direction: column; }
       .gd_PriSec .gd_Pri,
       .gd_PriSec .gd_Sec {
         width: 100%; }
       .gd_PriSec .gd_Sec {
-        -webkit-box-ordinal-group: 4;
-        -webkit-order: 3;
-            -ms-flex-order: 3;
-                order: 3; } }
+        order: 3; } }
 
 /* != Stage - Homepage */
 .st_Homepage {
   min-height: 100vh; }
 
 /* != Layout - Field - Page Title */
-.fd_PageTitle {
-  background: #3c3c44;
-  color: #fff;
-  -webkit-box-flex: 1;
-  -webkit-flex-grow: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-box-pack: end;
-  -webkit-justify-content: flex-end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
+.fd_Section--title {
+  background: #A71010;
+  flex-grow: 1;
+  justify-content: flex-end; }
+.fd_Section--info {
+  background: #FAFAFA;
+  color: #000; }
 
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .fd_Section {
+    padding: 0 calc(50vw - 500px); } }
+/* != Layout - Field - Page Title */
+.fd_Section--title {
+  background: #A71010;
+  flex-grow: 1;
+  justify-content: flex-end; }
+.fd_Section--info {
+  background: #FAFAFA;
+  color: #000; }
+
+/* If media queries are supported... */
+@media screen and (min-width: 62.5625em) {
+  .fd_Section {
+    padding: 0 calc(50vw - 500px); } }
 /* != Component - Page Title */
 .cp_PageTitle {
   width: 100%;
@@ -564,18 +527,13 @@ h1, h2, h3, h4, h5, h6 {
     display: inline-block;
     padding: 10px;
     color: #000;
-    background: #fff; }
+    background: #FAFAFA; }
 
 /* If media queries are supported... */
 @media screen and (min-width: 62.5625em) {
   .cp_PageTitle {
-    max-width: 90vw; } }
-
-/* != Layout - Field - Page Info */
-.fd_PageInfo {
-  background: #dcdcdc;
-  color: #000; }
-
+    max-width: 90vw;
+    margin: 50px auto; } }
 /* != Component - Homepage Introduction */
 .cp_Info {
   width: 100%;
@@ -586,6 +544,6 @@ h1, h2, h3, h4, h5, h6 {
 /* If media queries are supported... */
 @media screen and (min-width: 62.5625em) {
   .cp_Info {
-    max-width: 90vw; } }
-
+    max-width: 90vw;
+    margin: 40px auto; } }
 /* !== Navigation */
