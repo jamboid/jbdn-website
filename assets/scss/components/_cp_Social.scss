@@ -34,6 +34,19 @@
   }
 }
 
+@include mq($bpVader) {
+  .cp_Social {
+    &__link {
+      padding:vw(15,$bpVader);  
+    }
+
+    &__svg {
+      width:vw(45,$bpVader);
+      height:vw(45,$bpVader);
+    }
+  }
+}
+
 
 @include mq($bpArtoo) {
   .cp_Social {
