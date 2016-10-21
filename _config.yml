@@ -28,5 +28,5 @@ github_username:  jamboid
 markdown: kramdown
 
 # Sass
-sass:
-    style: compressed
+# sass:
+#     style: compressed
