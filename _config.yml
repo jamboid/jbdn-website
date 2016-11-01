@@ -30,3 +30,6 @@ markdown: kramdown
 # Sass
 # sass:
 #     style: compressed
+
+# Excludes
+exclude: [config.codekit3, config.codekit]
