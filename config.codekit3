@@ -509,6 +509,16 @@
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
 		},
+	"\/_site\/assets\/css\/screen.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/css\/screen-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/assets\/img\/icon_github.svg": {
 		"ft": 2097152,
 		"miP": 0,
