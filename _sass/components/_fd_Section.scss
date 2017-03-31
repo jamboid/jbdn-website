@@ -1,21 +1,5 @@
 /* != Layout - Field - Page Title */
 
 .fd_Section {
-  &--title {
-    background:$clrDarkGrey url(../img/jb_pixel_face.png) bottom center no-repeat;
-    background-size:cover;
-    flex-grow:1;
-    justify-content: flex-end;
-  }
 
-  &--info {
-    background:$clrSecondary;
-    color:$clrBlack;
-  }
-}
-
-@include mq(plusOne($bpVader), $limit: min) {
-  .fd_Section {
-    padding:0 calc(50vw - 500px);
-  }
 }

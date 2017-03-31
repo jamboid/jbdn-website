@@ -8,7 +8,7 @@ DEPENDENCIES
 The following Tools are required to process this Sass framework correctly:
 
 * Sass 3.3
-* Autoprefixer 
+* Autoprefixer
 
 */
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
@@ -352,8 +352,8 @@ Parameters: @pixels value (no units), optional @context value (no units) e.g. if
 /* != Document */
 /* Rules for <html> and <body> go here */
 body {
-  color: #3c3c44;
-  background: #FAFAFA;
+  color: #3C3838;
+  background: #fff;
   font-size: 100%;
   font-family: Georgia, serif;
   font-weight: 400;
@@ -597,49 +597,22 @@ h1, h2, h3, h4, h5, h6 {
             -ms-flex-order: 3;
                 order: 3; } }
 
-/* != Stage - Homepage */
-.st_Homepage {
-  min-height: 100vh; }
+/* != Stage - Header Container */
+.st_Header {
+  text-align: center;
+  border-top: 38px solid #3C3838;
+  background: #F6F6F6; }
 
 /* != Layout - Field - Page Title */
-.fd_Section--title {
-  background: #3c3c44 url(../img/jb_pixel_face.png) bottom center no-repeat;
-  background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-
-.fd_Section--info {
-  background: #FAFAFA;
-  color: #000; }
-
-/* If media queries are supported... */
-@media screen and (min-width: 62.5625em) {
-  .fd_Section {
-    padding: 0 calc(50vw - 500px); } }
-
-/* != Layout - Field - Page Title */
-.fd_Section--title {
-  background: #3c3c44 url(../img/jb_pixel_face.png) bottom center no-repeat;
-  background-size: cover;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end; }
-
-.fd_Section--info {
-  background: #FAFAFA;
-  color: #000; }
-
-/* If media queries are supported... */
-@media screen and (min-width: 62.5625em) {
-  .fd_Section {
-    padding: 0 calc(50vw - 500px); } }
+/* != Main Brand Component in Header */
+.cp_Brand {
+  -webkit-transform: translateY(-22px);
+          transform: translateY(-22px); }
+  .cp_Brand__link {
+    display: inline-block; }
+  .cp_Brand svg {
+    width: 88px;
+    height: auto; }
 
 /* != Component - Page Title */
 .cp_PageTitle {
@@ -650,8 +623,7 @@ h1, h2, h3, h4, h5, h6 {
   .cp_PageTitle__title {
     display: inline-block;
     padding: 10px;
-    color: #000;
-    background: #FAFAFA; }
+    color: #3C3838; }
 
 /* If media queries are supported... */
 @media screen and (min-width: 62.5625em) {
@@ -689,7 +661,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #dcdcdc;
   line-height: 0; }
   .cp_Social__link:hover, .cp_Social__link:focus, .cp_Social__link:active {
-    background: #3c3c44; }
+    background: #3C3838; }
     .cp_Social__link:hover path, .cp_Social__link:focus path, .cp_Social__link:active path {
       fill: #fff !important; }
 

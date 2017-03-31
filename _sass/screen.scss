@@ -11,7 +11,7 @@ DEPENDENCIES
 The following Tools are required to process this Sass framework correctly:
 
 * Sass 3.3
-* Autoprefixer 
+* Autoprefixer
 
 */
 
@@ -27,9 +27,9 @@ $legacy: false;
 @import "components/tx_Intro";
 @import "components/tx_Prose";
 @import "components/gd_Layout";
-@import "components/st_Homepage";
+@import "components/st_Header";
 @import "components/fd_Section";
-@import "components/fd_Section";
+@import "components/cp_Brand";
 @import "components/cp_PageTitle";
 @import "components/cp_Info";
 @import "components/cp_Social";
