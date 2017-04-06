@@ -15,12 +15,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
@@ -105,12 +99,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2016-08-08-welcome-to-jekyll.markdown",
-		"oF": 0
-		},
-	"\/_sass\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/_sass\/.sass-cache",
 		"oF": 0
 		},
 	"\/_sass\/base\/_all.scss": {
