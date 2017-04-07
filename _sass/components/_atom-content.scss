@@ -1,0 +1,21 @@
+/* != Standard CSS-Generated Content */
+
+.ct_Pseudo {
+  position: relative;
+
+  &:before,
+  &:after {
+    content:"";
+    display: block;
+    position: absolute;
+  }
+}
+
+.ct_Sprite {
+  position: relative;
+
+  &:before,
+  &:after {
+    @extend %spriteBase;
+  }
+}

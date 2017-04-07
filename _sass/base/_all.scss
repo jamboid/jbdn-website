@@ -12,7 +12,7 @@ NOTE: Imports all other files in the /framework folder
 /* !== Resets */
 @import "resets/reset";
 @import "resets/reset-forms";
-@import "resets/drupal-reset"; 
+@import "resets/drupal-reset";
 
 /* !== Modules */
 @import "modules/mod-units";
@@ -26,3 +26,4 @@ NOTE: Imports all other files in the /framework folder
 @import "modules/mod-sprites";
 @import "modules/mod-states";
 @import "modules/mod-design-elements";
+@import "modules/mod-content";

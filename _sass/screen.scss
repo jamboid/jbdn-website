@@ -5,7 +5,7 @@
 
 /*
 
-DEPENDENCIES
+DEPENDENCIES 
 ============
 
 The following Tools are required to process this Sass framework correctly:
@@ -21,12 +21,20 @@ $legacy: false;
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
 @import "base/all";
 
+@import "components/atom-content";
+
 /* !== Global Rules */
 @import "components/document";
-@import "components/hd_Headings";
-@import "components/tx_Intro";
+
+/* !== Typography */
+@import "components/tx_Basic";
 @import "components/tx_Prose";
+@import "components/hd_Headings";
+
+/* !== Layout */
 @import "components/gd_Layout";
+
+/* !== Components */
 @import "components/st_Header";
 @import "components/fd_Section";
 @import "components/cp_Brand";

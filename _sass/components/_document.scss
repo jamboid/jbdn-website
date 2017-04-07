@@ -14,9 +14,3 @@ body {
 *, *:before, *:after {
   box-sizing: border-box;
 }
-
-/* !== Basic Typography Rules */
-h1,h2,h3,h4,h5,h6 {
-  font-family:$displayfontfamily;
-  font-weight:$bold;
-}
