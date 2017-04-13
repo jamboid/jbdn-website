@@ -460,21 +460,16 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "sutro", Georgia, serif; }
 
 .hd_Chewie {
-  font-size: 1.875em;
+  font-size: 2.25em;
   line-height: 1; }
 
 .hd_Han {
   font-size: 1.25em; }
 
 /* If media queries are supported... */
-@media screen and (max-width: 30em) {
-  .hd_Chewie {
-    font-size: 6.25vw; } }
-
-/* If media queries are supported... */
 @media screen and (min-width: 30.0625em) {
   .hd_Chewie {
-    font-size: 6.25vw; }
+    font-size: 7.5vw; }
   .hd_Han {
     font-size: 4.1666666667vw; } }
 
@@ -595,15 +590,26 @@ h1, h2, h3, h4, h5, h6 {
 /* !== Components */
 /* != Stage - Header Container */
 .st_Header {
-  text-align: center; }
+  text-align: center;
+  padding: 1.3125em 0 0; }
+  .st_Header:before {
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: #F1F1F1;
+    z-index: -1; }
 
 /* != Layout - Field - Page Title */
+.fd_Section--home {
+  text-align: center; }
+
 /* != Main Brand Component in Header */
 .cp_Brand__link {
   display: inline-block; }
 
-.cp_Brand svg {
-  width: 88px;
+.cp_Brand img {
+  width: 92px;
   height: auto; }
 
 /* != Component - Page Title */

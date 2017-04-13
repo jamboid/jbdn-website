@@ -2,4 +2,14 @@
 
 .st_Header {
   text-align: center;
+  padding:em(21) 0 0;
+
+  &:before {
+    height: 60px;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background:$clrOffWhite;
+    z-index: -1;
+  }
 }

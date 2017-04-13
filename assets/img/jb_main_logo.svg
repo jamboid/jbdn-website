@@ -1,6 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="176" height="158" viewBox="0 0 176 158">
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="158" viewBox="0 0 176 158" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    <circle id="a" cx="76" cy="76" r="76"/>
+  </defs>
   <g fill="none" fill-rule="evenodd">
-    <circle id="logo_Circle" cx="87" cy="76" r="76" fill="#0EFFB3"/>
+    <g transform="translate(11)">
+      <mask id="b" fill="white">
+        <use xlink:href="#a"/>
+      </mask>
+      <use fill="#0EFFB3" xlink:href="#a"/>
+      <g fill="#000000" transform="rotate(90 76 76)" opacity=".2" mask="url(#b)">
+        <rect width="19" height="19" opacity=".062"/>
+        <rect width="19" height="19" y="19" opacity=".383"/>
+        <rect width="19" height="19" y="38" opacity=".195"/>
+        <rect width="19" height="19" y="57" opacity=".838"/>
+        <rect width="19" height="19" x="19" opacity=".559"/>
+        <rect width="19" height="19" x="19" y="19" opacity=".287"/>
+        <rect width="19" height="19" x="19" y="38" opacity="0"/>
+        <rect width="19" height="19" x="19" y="57" opacity=".386"/>
+        <rect width="19" height="19" x="38" opacity=".364"/>
+        <rect width="19" height="19" x="38" y="19" opacity=".671"/>
+        <rect width="19" height="19" x="38" y="38" opacity=".398"/>
+        <rect width="19" height="19" x="38" y="57" opacity=".636"/>
+        <rect width="19" height="19" x="57" opacity=".225"/>
+        <rect width="19" height="19" x="57" y="19" opacity=".538"/>
+        <rect width="19" height="19" x="57" y="38" opacity=".284"/>
+        <rect width="19" height="19" x="57" y="57" opacity=".176"/>
+        <rect width="19" height="19" x="133" opacity=".062" transform="rotate(90 142.5 9.5)"/>
+        <rect width="19" height="19" x="114" opacity=".383" transform="rotate(90 123.5 9.5)"/>
+        <rect width="19" height="19" x="95" opacity=".195" transform="rotate(90 104.5 9.5)"/>
+        <rect width="19" height="19" x="76" opacity=".673" transform="rotate(90 85.5 9.5)"/>
+        <rect width="19" height="19" x="133" y="19" opacity=".559" transform="rotate(90 142.5 28.5)"/>
+        <rect width="19" height="19" x="114" y="19" opacity=".287" transform="rotate(90 123.5 28.5)"/>
+        <rect width="19" height="19" x="95" y="19" opacity="0" transform="rotate(90 104.5 28.5)"/>
+        <rect width="19" height="19" x="76" y="19" opacity=".386" transform="rotate(90 85.5 28.5)"/>
+        <rect width="19" height="19" x="133" y="38" opacity=".364" transform="rotate(90 142.5 47.5)"/>
+        <rect width="19" height="19" x="114" y="38" opacity=".671" transform="rotate(90 123.5 47.5)"/>
+        <rect width="19" height="19" x="95" y="38" opacity=".398" transform="rotate(90 104.5 47.5)"/>
+        <rect width="19" height="19" x="76" y="38" opacity=".636" transform="rotate(90 85.5 47.5)"/>
+        <rect width="19" height="19" x="133" y="57" opacity=".225" transform="rotate(90 142.5 66.5)"/>
+        <rect width="19" height="19" x="114" y="57" opacity=".538" transform="rotate(90 123.5 66.5)"/>
+        <rect width="19" height="19" x="95" y="57" opacity=".284" transform="rotate(90 104.5 66.5)"/>
+        <rect width="19" height="19" x="76" y="57" opacity=".176" transform="rotate(90 85.5 66.5)"/>
+        <rect width="19" height="19" x="57" y="133" opacity=".062" transform="rotate(-180 66.5 142.5)"/>
+        <rect width="19" height="19" x="57" y="114" opacity=".383" transform="rotate(-180 66.5 123.5)"/>
+        <rect width="19" height="19" x="57" y="95" opacity=".195" transform="rotate(-180 66.5 104.5)"/>
+        <rect width="19" height="19" x="57" y="76" opacity=".171" transform="rotate(-180 66.5 85.5)"/>
+        <rect width="19" height="19" x="38" y="133" opacity=".559" transform="rotate(-180 47.5 142.5)"/>
+        <rect width="19" height="19" x="38" y="114" opacity=".287" transform="rotate(-180 47.5 123.5)"/>
+        <rect width="19" height="19" x="38" y="95" opacity="0" transform="rotate(-180 47.5 104.5)"/>
+        <rect width="19" height="19" x="38" y="76" opacity=".386" transform="rotate(-180 47.5 85.5)"/>
+        <rect width="19" height="19" x="19" y="133" opacity=".364" transform="rotate(-180 28.5 142.5)"/>
+        <rect width="19" height="19" x="19" y="114" opacity=".671" transform="rotate(-180 28.5 123.5)"/>
+        <rect width="19" height="19" x="19" y="95" opacity=".398" transform="rotate(-180 28.5 104.5)"/>
+        <rect width="19" height="19" x="19" y="76" opacity=".636" transform="rotate(-180 28.5 85.5)"/>
+        <rect width="19" height="19" y="133" opacity=".225" transform="rotate(-180 9.5 142.5)"/>
+        <rect width="19" height="19" y="114" opacity=".538" transform="rotate(-180 9.5 123.5)"/>
+        <rect width="19" height="19" y="95" opacity=".284" transform="rotate(-180 9.5 104.5)"/>
+        <rect width="19" height="19" y="76" opacity=".176" transform="rotate(-180 9.5 85.5)"/>
+        <rect width="19" height="19" x="76" y="133" opacity=".062" transform="rotate(-90 85.5 142.5)"/>
+        <rect width="19" height="19" x="95" y="133" opacity=".383" transform="rotate(-90 104.5 142.5)"/>
+        <rect width="19" height="19" x="114" y="133" opacity=".195" transform="rotate(-90 123.5 142.5)"/>
+        <rect width="19" height="19" x="133" y="133" opacity=".171" transform="matrix(0 -1 1 0 0 285)"/>
+        <rect width="19" height="19" x="76" y="114" opacity=".559" transform="rotate(-90 85.5 123.5)"/>
+        <rect width="19" height="19" x="95" y="114" opacity=".287" transform="rotate(-90 104.5 123.5)"/>
+        <rect width="19" height="19" x="114" y="114" opacity="0" transform="matrix(0 -1 1 0 0 247)"/>
+        <rect width="19" height="19" x="133" y="114" opacity=".386" transform="rotate(-90 142.5 123.5)"/>
+        <rect width="19" height="19" x="76" y="95" opacity=".364" transform="rotate(-90 85.5 104.5)"/>
+        <rect width="19" height="19" x="95" y="95" opacity=".671" transform="matrix(0 -1 1 0 0 209)"/>
+        <rect width="19" height="19" x="114" y="95" opacity=".398" transform="rotate(-90 123.5 104.5)"/>
+        <rect width="19" height="19" x="133" y="95" opacity=".636" transform="rotate(-90 142.5 104.5)"/>
+        <rect width="19" height="19" x="76" y="76" opacity=".225" transform="rotate(-90 85.5 85.5)"/>
+        <rect width="19" height="19" x="95" y="76" opacity=".538" transform="rotate(-90 104.5 85.5)"/>
+        <rect width="19" height="19" x="114" y="76" opacity=".284" transform="rotate(-90 123.5 85.5)"/>
+        <rect width="19" height="19" x="133" y="76" opacity=".176" transform="rotate(-90 142.5 85.5)"/>
+      </g>
+    </g>
     <path fill="#3D3838" d="M0,158 L0,145 L34,145 L34,108 L47,108 L47,121 L71,121 L71,108 L57,108 L57,45 L84,45 L84,145 L91,145 L91,70 L116,70 L116,95 L141,95 L141,145 L176,145 L176,158 L0,158 Z M116,108 L116,121 L129,121 L129,108 L116,108 Z"/>
   </g>
 </svg>

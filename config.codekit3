@@ -7,7 +7,7 @@
 		"uuidString": "5917DC1B-0066-4366-82A9-A99BC74726A8"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -578,11 +578,12 @@
 	"\/_site\/assets\/img\/jb_pixel_face.png": {
 		"ft": 32768,
 		"iS": 18763,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/img\/jb_pixel_face.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/assets\/js\/libs\/imagesloaded.pkgd.js": {
@@ -842,11 +843,12 @@
 	"\/assets\/img\/jb_pixel_face.png": {
 		"ft": 32768,
 		"iS": 18763,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/jb_pixel_face.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/libs\/imagesloaded.pkgd.js": {
@@ -1992,6 +1994,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2816,14 +2822,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2886,7 +2884,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
