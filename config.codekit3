@@ -7,18 +7,12 @@
 		"uuidString": "5917DC1B-0066-4366-82A9-A99BC74726A8"
 		}
 	],
-"creatorBuild": "25704",
+"creatorBuild": "25813",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/.gitignore",
-		"oF": 0
-		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
 		"oF": 0
 		},
 	"\/_config.yml": {
@@ -35,7 +29,7 @@
 		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
@@ -79,7 +73,7 @@
 		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
@@ -105,12 +99,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_posts\/2016-08-08-welcome-to-jekyll.markdown",
-		"oF": 0
-		},
-	"\/_sass\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/_sass\/.sass-cache",
 		"oF": 0
 		},
 	"\/_sass\/base\/_all.scss": {
@@ -517,15 +505,15 @@
 		"uL": 1
 		},
 	"\/_sass\/screen.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/screen.css",
-		"oF": 2,
+		"oAP": "\/css\/screen.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -534,6 +522,16 @@
 		"oA": 2,
 		"oAP": "\/_site\/about\/index.html",
 		"oF": 0
+		},
+	"\/_site\/assets\/css\/screen.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/_site\/assets\/css\/screen-ck.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/_site\/assets\/img\/icon_github.svg": {
 		"ft": 2097152,
@@ -578,11 +576,12 @@
 	"\/_site\/assets\/img\/jb_pixel_face.png": {
 		"ft": 32768,
 		"iS": 18763,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/img\/jb_pixel_face.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/_site\/assets\/js\/libs\/imagesloaded.pkgd.js": {
@@ -842,11 +841,12 @@
 	"\/assets\/img\/jb_pixel_face.png": {
 		"ft": 32768,
 		"iS": 18763,
-		"l": 1,
 		"oA": 0,
 		"oAP": "\/assets\/img\/jb_pixel_face.png",
 		"oF": 0,
+		"oIPL": 0,
 		"opt": 0,
+		"oT": 1,
 		"q": 100
 		},
 	"\/assets\/js\/libs\/imagesloaded.pkgd.js": {
@@ -999,6 +999,16 @@
 		"oAP": "\/assets\/js\/Site.min.js.map",
 		"oF": 0
 		},
+	"\/css\/screen.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/css\/screen-ck.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/feed.xml": {
 		"ft": 8192,
 		"oA": 2,
@@ -1019,7 +1029,7 @@
 		},
 	"\/index.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/index.html",
 		"oF": 0
 		}
@@ -1992,6 +2002,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-redeclare": {
 			"active": 1,
 			"optionString": "{'builtinGlobals': false}"
@@ -2816,14 +2830,6 @@
 		"orderOutput": 0,
 		"outputStyle": 1
 		},
-	"languageDefaultsJSX": {
-		"autoOutputAction": 0,
-		"autoOutputPathFilenamePattern": "*.js",
-		"autoOutputPathRelativePath": "",
-		"autoOutputPathReplace1": "jsx",
-		"autoOutputPathReplace2": "js",
-		"autoOutputPathStyle": 0
-		},
 	"languageDefaultsKIT": {
 		"autoOutputAction": 0,
 		"autoOutputPathFilenamePattern": "*.html",
@@ -2886,7 +2892,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
-		"enableLossy": 1,
+		"optimizerType": 1,
 		"quality": 100
 		},
 	"languageDefaultsPUG": {
