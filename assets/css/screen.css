@@ -415,7 +415,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .tx_Prose p,
 .tx_Prose li {
-  font-size: 1em;
+  font-size: 1.125em;
   margin: 0 0 1em;
   font-weight: 400; }
 
@@ -436,7 +436,7 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 3.3333333333vw; }
   .tx_Prose p,
   .tx_Prose li {
-    font-size: 3.3333333333vw; }
+    font-size: 3.75vw; }
   .tx_Prose ul {
     padding-left: 4.1666666667vw; } }
 
@@ -451,7 +451,7 @@ h1, h2, h3, h4, h5, h6 {
   .tx_Prose h4,
   .tx_Prose p,
   .tx_Prose li {
-    font-size: 1.5em; }
+    font-size: 2.3125em; }
   .tx_Prose ul {
     padding-left: 2.625em; } }
 
@@ -632,14 +632,13 @@ h1, h2, h3, h4, h5, h6 {
 /* != Component - Homepage Introduction */
 .cp_Info {
   width: 100%;
-  max-width: 90vw;
+  max-width: 56.25em;
   margin: 4vw auto;
   padding: 10px; }
 
 /* If media queries are supported... */
 @media screen and (min-width: 62.5625em) {
   .cp_Info {
-    max-width: 90vw;
     margin: 40px auto; } }
 
 /* != Component - Social Links */
