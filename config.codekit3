@@ -251,19 +251,19 @@
 		},
 	"\/_includes\/footer.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/_includes\/head.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/_includes\/icon-github.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/icon-github.html",
 		"oF": 0
 		},
@@ -279,7 +279,7 @@
 		},
 	"\/_includes\/icon-twitter.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/icon-twitter.html",
 		"oF": 0
 		},
@@ -295,31 +295,31 @@
 		},
 	"\/_includes\/social_links.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_includes\/social_links.html",
 		"oF": 0
 		},
 	"\/_layouts\/default.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/_layouts\/homepage.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/homepage.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/_layouts\/post.html": {
 		"ft": 8192,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/_layouts\/post.html",
 		"oF": 0
 		},
@@ -913,15 +913,15 @@
 		"uL": 1
 		},
 	"\/_sass\/screen.scss": {
-		"aP": 1,
+		"aP": 0,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
 		"ft": 4,
 		"ma": 0,
 		"oA": 0,
-		"oAP": "\/assets\/css\/screen.css",
-		"oF": 2,
+		"oAP": "\/css\/screen.css",
+		"oF": 0,
 		"oS": 0,
 		"uL": 1
 		},
@@ -1178,9 +1178,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/about\/index.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -1196,7 +1196,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/css\/screen-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt": {
 		"ft": 8192,
@@ -1393,7 +1393,7 @@
 	"\/assets\/js\/Site.min.js": {
 		"ft": 64,
 		"mi": 1,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/assets\/js\/min\/Site.min-min.js",
 		"oF": 0,
 		"sC": 1,
@@ -1406,14 +1406,14 @@
 		"oF": 0
 		},
 	"\/css\/screen.css": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"ft": 16,
 		"ma": 0,
-		"oA": 2,
+		"oA": 0,
 		"oAP": "\/css\/screen-min.css",
 		"oF": 0,
-		"oS": 0
+		"oS": 3
 		},
 	"\/feed.xml": {
 		"ft": 8192,
