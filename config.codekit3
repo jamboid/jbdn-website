@@ -7,7 +7,7 @@
 		"uuidString": "5917DC1B-0066-4366-82A9-A99BC74726A8"
 		}
 	],
-"creatorBuild": "25849",
+"creatorBuild": "25900",
 "files": {
 	"\/.gitignore": {
 		"ft": 8192,
@@ -312,6 +312,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/imagesloaded.pkgd.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/imagesloaded.pkgd-min.js",
@@ -321,6 +322,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.debouncedresize.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.debouncedresize-min.js",
@@ -330,6 +332,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.easing.1.3.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.easing.1.3-min.js",
@@ -339,6 +342,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.fittext.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.fittext-min.js",
@@ -348,6 +352,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.hammer.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.hammer-min.js",
@@ -357,6 +362,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.pubsub.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.pubsub-min.js",
@@ -366,6 +372,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/jquery.validate.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/min\/jquery.validate.min-min.js",
@@ -375,6 +382,7 @@
 		},
 	"\/_site\/assets\/js\/libs\/single\/modernizr\/modernizr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/libs\/single\/modernizr\/min\/modernizr-min.js",
@@ -384,6 +392,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.analytics.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.analytics-min.js",
@@ -393,6 +402,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.events.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.events-min.js",
@@ -402,6 +412,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.images.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.images-min.js",
@@ -411,6 +422,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.layout.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.layout-min.js",
@@ -420,6 +432,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.loading.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.loading-min.js",
@@ -429,6 +442,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.navigation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.navigation-min.js",
@@ -438,6 +452,7 @@
 		},
 	"\/_site\/assets\/js\/modules\/Site.utils.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/modules\/min\/Site.utils-min.js",
@@ -447,6 +462,7 @@
 		},
 	"\/_site\/assets\/js\/Site.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/_site\/assets\/js\/min\/Site.min-min.js",
@@ -563,6 +579,7 @@
 		},
 	"\/assets\/js\/libs\/imagesloaded.pkgd.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/imagesloaded.pkgd-min.js",
@@ -572,6 +589,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.debouncedresize.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.debouncedresize-min.js",
@@ -581,6 +599,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.easing.1.3.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.easing.1.3-min.js",
@@ -590,6 +609,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.fittext.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.fittext-min.js",
@@ -599,6 +619,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.hammer.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.hammer-min.js",
@@ -608,6 +629,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.pubsub.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.pubsub-min.js",
@@ -617,6 +639,7 @@
 		},
 	"\/assets\/js\/libs\/jquery.validate.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/min\/jquery.validate.min-min.js",
@@ -626,6 +649,7 @@
 		},
 	"\/assets\/js\/libs\/single\/modernizr\/modernizr.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/libs\/single\/modernizr\/min\/modernizr-min.js",
@@ -635,6 +659,7 @@
 		},
 	"\/assets\/js\/modules\/Site.analytics.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.analytics-min.js",
@@ -644,6 +669,7 @@
 		},
 	"\/assets\/js\/modules\/Site.animate.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.animate-min.js",
@@ -653,6 +679,7 @@
 		},
 	"\/assets\/js\/modules\/Site.backgroundvideo.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.backgroundvideo-min.js",
@@ -662,6 +689,7 @@
 		},
 	"\/assets\/js\/modules\/Site.carousel.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.carousel-min.js",
@@ -671,6 +699,7 @@
 		},
 	"\/assets\/js\/modules\/Site.data.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.data-min.js",
@@ -680,6 +709,7 @@
 		},
 	"\/assets\/js\/modules\/Site.events.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.events-min.js",
@@ -689,6 +719,7 @@
 		},
 	"\/assets\/js\/modules\/Site.filter.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.filter-min.js",
@@ -698,6 +729,7 @@
 		},
 	"\/assets\/js\/modules\/Site.forms.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.forms-min.js",
@@ -707,6 +739,7 @@
 		},
 	"\/assets\/js\/modules\/Site.grid.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.grid-min.js",
@@ -716,6 +749,7 @@
 		},
 	"\/assets\/js\/modules\/Site.history.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.history-min.js",
@@ -725,6 +759,7 @@
 		},
 	"\/assets\/js\/modules\/Site.images.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.images-min.js",
@@ -734,6 +769,7 @@
 		},
 	"\/assets\/js\/modules\/Site.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site-min.js",
@@ -743,6 +779,7 @@
 		},
 	"\/assets\/js\/modules\/Site.layout.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.layout-min.js",
@@ -752,6 +789,7 @@
 		},
 	"\/assets\/js\/modules\/Site.loading.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.loading-min.js",
@@ -761,6 +799,7 @@
 		},
 	"\/assets\/js\/modules\/Site.maps.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.maps-min.js",
@@ -770,6 +809,7 @@
 		},
 	"\/assets\/js\/modules\/Site.media.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.media-min.js",
@@ -779,6 +819,7 @@
 		},
 	"\/assets\/js\/modules\/Site.modal.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.modal-min.js",
@@ -788,6 +829,7 @@
 		},
 	"\/assets\/js\/modules\/Site.namespace.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.namespace-min.js",
@@ -797,6 +839,7 @@
 		},
 	"\/assets\/js\/modules\/Site.navigation.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.navigation-min.js",
@@ -806,6 +849,7 @@
 		},
 	"\/assets\/js\/modules\/Site.panelslider.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.panelslider-min.js",
@@ -815,6 +859,7 @@
 		},
 	"\/assets\/js\/modules\/Site.showhide.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.showhide-min.js",
@@ -824,6 +869,7 @@
 		},
 	"\/assets\/js\/modules\/Site.tabs.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.tabs-min.js",
@@ -833,6 +879,7 @@
 		},
 	"\/assets\/js\/modules\/Site.toolbar.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.toolbar-min.js",
@@ -842,6 +889,7 @@
 		},
 	"\/assets\/js\/modules\/Site.utils.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 1,
 		"oAP": "\/assets\/js\/modules\/min\/Site.utils-min.js",
@@ -851,6 +899,7 @@
 		},
 	"\/assets\/js\/modules\/Site.webfonts.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/modules\/min\/Site.webfonts-min.js",
@@ -860,6 +909,7 @@
 		},
 	"\/assets\/js\/Site.min.js": {
 		"ft": 64,
+		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/Site.min-min.js",
@@ -1699,6 +1749,10 @@
 			"active": 0,
 			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
 			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
 		"array-bracket-spacing": {
 			"active": 0,
 			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
@@ -1706,6 +1760,10 @@
 		"array-callback-return": {
 			"active": 0,
 			"optionString": ""
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
 			},
 		"arrow-body-style": {
 			"active": 0,
@@ -1803,6 +1861,10 @@
 			"active": 0,
 			"optionString": "'always', {'null': 'always'}"
 			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
 		"func-call-spacing": {
 			"active": 0,
 			"optionString": "'never'"
@@ -1822,6 +1884,10 @@
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
 			},
 		"global-require": {
 			"active": 0,
@@ -1950,6 +2016,10 @@
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
 			},
 		"no-caller": {
 			"active": 0,
@@ -2495,6 +2565,10 @@
 			"active": 0,
 			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
 			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
 		"prefer-arrow-callback": {
 			"active": 0,
 			"optionString": ""
@@ -2563,6 +2637,10 @@
 			"active": 0,
 			"optionString": "{'before': false, 'after': true}"
 			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
 		"sort-imports": {
 			"active": 0,
 			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
@@ -2602,6 +2680,10 @@
 		"strict": {
 			"active": 0,
 			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
 			},
 		"symbol-description": {
 			"active": 0,
@@ -3235,6 +3317,7 @@
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",
+	"susyVersion": 3,
 	"uglifyDefinesString": "",
 	"uglifyFlags2": {
 		"ascii-only": {
