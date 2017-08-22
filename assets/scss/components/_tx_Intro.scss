@@ -9,6 +9,11 @@
 
   a {
     color:inherit;
+    transition:all 0.1s ease-out;
+
+    &:hover, &:focus, &:active {
+      color:$clrBlue;
+    }
   }
 
   strong,

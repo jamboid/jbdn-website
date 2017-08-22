@@ -16,11 +16,15 @@
     padding:15px;
     border-radius:50px;
     display: inline-block;
-    background:$clrVeryLightGrey;
+    background-color:$clrVeryLightGrey;
     line-height: 0;
 
+    path {
+      transition:fill 0.1s ease-out;
+    }
+
     &:hover, &:focus, &:active {
-      background:$clrDarkGrey;
+      background-color:$clrDarkGrey;
 
       path {
         fill:$clrWhite !important;
@@ -37,7 +41,7 @@
 @include mq($bpVader) {
   .cp_Social {
     &__link {
-      padding:vw(15,$bpVader);  
+      padding:vw(15,$bpVader);
     }
 
     &__svg {
