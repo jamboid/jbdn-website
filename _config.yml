@@ -23,6 +23,8 @@ github_username:  jamboid
 
 # Build settings
 markdown: kramdown
+source: source
+destination: build
 
 # Sass
 # sass:

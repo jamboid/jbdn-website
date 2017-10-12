@@ -58,3 +58,4 @@ screen.css.map
 _site
 .sass-cache
 .jekyll-metadata
+/build
