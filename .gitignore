@@ -59,7 +59,11 @@ _site
 .sass-cache
 .jekyll-metadata
 <<<<<<< HEAD
+<<<<<<< HEAD
 build
+=======
+/build
+>>>>>>> origin/development-jekyll
 =======
 /build
 >>>>>>> origin/development-jekyll
