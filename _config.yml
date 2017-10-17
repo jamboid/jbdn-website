@@ -37,7 +37,7 @@ exclude: [config.codekit3, config.codekit, Gemfile, Gemfile.lock]
 # Project Gems
 plugins:
     - jekyll-assets
-
+    - octopress-autoprefixer
 
 # Assets
 assets:
@@ -64,10 +64,10 @@ assets:
               opts: {}
           css:
               enabled: true
-    autoprefixer:
-        browsers:
-            - "last 2 versions"
-            - "IE > 9"
+      autoprefixer:
+          browsers:
+              - "last 2 versions"
+              - "IE > 9"
     sources:
         - assets/css
         - assets/fonts

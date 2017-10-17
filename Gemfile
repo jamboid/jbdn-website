@@ -11,8 +11,9 @@ ruby "2.3.1"
 # Happy Jekylling!
 gem "jekyll", "3.6"
 gem "jekyll-assets"
-gem "autoprefixer-rails"
 gem "rb-fsevent", "~> 0.9.0"
+# gem "jekyll-admin"
+gem "octopress-autoprefixer"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"
