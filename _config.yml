@@ -27,8 +27,52 @@ source: source
 destination: build
 
 # Sass
-# sass:
+sass:
+    sass_dir: /assets/css
 #     style: compressed
 
 # Excludes
 exclude: [config.codekit3, config.codekit, Gemfile, Gemfile.lock]
+
+# Project Gems
+plugins:
+    - jekyll-assets
+
+
+# Assets
+assets:
+    liquid: false
+    prefix: "/assets"
+    integrity: false
+    autowrite: true
+    digest: false
+    strict: false
+    caching:
+        enabled: true
+        path: ".jekyll-cache/assets"
+        type: file
+    precompile: []
+    cdn:
+        baseurl: false
+        prefix: false
+    plugins:
+      img:
+          optim: {}
+      compression:
+          js:
+              enabled: false
+              opts: {}
+          css:
+              enabled: true
+    autoprefixer:
+        browsers:
+            - "last 2 versions"
+            - "IE > 9"
+    sources:
+        - assets/css
+        - assets/fonts
+        - assets/images
+        - assets/javascript
+        - assets/image
+        - assets/img
+        - assets/js

@@ -9,7 +9,10 @@ ruby "2.3.1"
 #
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
-gem "jekyll", "3.5"
+gem "jekyll", "3.6"
+gem "jekyll-assets"
+gem "autoprefixer-rails"
+gem "rb-fsevent", "~> 0.9.0"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"
@@ -20,7 +23,7 @@ gem "jekyll", "3.5"
 # gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
-gem 'jekyll-admin', group: :jekyll_plugins
+# gem 'jekyll-admin', group: :jekyll_plugins
 
 # group :jekyll_plugins do
 #   gem "jekyll-github-metadata", "~> 1.0"

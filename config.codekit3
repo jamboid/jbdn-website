@@ -15,499 +15,16 @@
 		"oAP": "\/.gitignore",
 		"oF": 0
 		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-controls-buttons.scssc": {
-		"ft": 8192,
+	"\/.sass-cache": {
+		"ft": 65536,
 		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-controls-buttons.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-design-elements.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-design-elements.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-grid.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-grid.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-layout.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-layout.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-maths.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-maths.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-media-queries.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-media-queries.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-media.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-media.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-sprites.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-sprites.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-states.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-states.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-typography.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-units.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/17dbc60da16b804ea91b13588f5ac005022f98a6\/_mod-units.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/4bffbb46bbc7ed655d19d991a57119187ecc4cf4\/_all.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/4bffbb46bbc7ed655d19d991a57119187ecc4cf4\/_all.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/722727d6f104d8276f56ae1b4c6cd58d9da58334\/minima.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.sass-cache\/722727d6f104d8276f56ae1b4c6cd58d9da58334\/minima.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_base.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_base.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_layout.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_layout.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_syntax-highlighting.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9508a798d3c837c066b5792b3952a9f59c43a46f\/_syntax-highlighting.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-breakpoints.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-breakpoints.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-colours.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-colours.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-typography.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/975a01f295ed31f7ab636b184e60d12f5805f81a\/_global-typography.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_drupal-reset.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_drupal-reset.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_reset-forms.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_reset-forms.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_reset.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/9fe4e54ff114baa8b022eeded626c364c5ea25d9\/_reset.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/legacy_screen.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/legacy_screen.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/minima.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/minima.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/screen.scssc": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/.sass-cache\/aceed359401622f1c2e374de364212ec05f0ff8f\/screen.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_Info.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_Info.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_PageTitle.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_PageTitle.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_Social.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_cp_Social.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_document.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_document.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_fd_Section.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_fd_Section.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_gd_Layout.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_gd_Layout.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_hd_Headings.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_hd_Headings.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_st_Homepage.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_st_Homepage.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_tx_Intro.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_tx_Intro.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_tx_Prose.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c11d6056a1a9a1d575b36aebeae40594008bede1\/_tx_Prose.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_base.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_base.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_layout.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_layout.scssc",
-		"oF": 0
-		},
-	"\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_syntax-highlighting.scssc": {
-		"ft": 8192,
-		"oA": 1,
-		"oAP": "\/.sass-cache\/c3d3a1e490e7520c4b7d78b5c5f0236af40f2033\/_syntax-highlighting.scssc",
+		"oAP": "\/build\/.sass-cache",
 		"oF": 0
 		},
 	"\/_config.yml": {
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
-		"oF": 0
-		},
-	"\/_site\/feed.xml": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/feed.xml",
-		"oF": 0
-		},
-	"\/_site\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/index.html",
-		"oF": 0
-		},
-	"\/_site\/source\/about\/index.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/source\/about\/index.html",
-		"oF": 0
-		},
-	"\/_site\/source\/assets\/css\/screen.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/css\/screen-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/source\/assets\/img\/icon_github.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/source\/assets\/img\/icon_github.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/source\/assets\/img\/icon_instagram.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/source\/assets\/img\/icon_instagram.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/source\/assets\/img\/icon_twitter.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/source\/assets\/img\/icon_twitter.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/source\/assets\/img\/jb_main_logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/_site\/source\/assets\/img\/jb_main_logo.svg",
-		"oF": 0,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/_site\/source\/assets\/img\/jb_pixel_face.png": {
-		"ft": 32768,
-		"iS": 18763,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/img\/jb_pixel_face.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 1,
-		"oT": 1,
-		"q": 100
-		},
-	"\/_site\/source\/assets\/js\/libs\/imagesloaded.pkgd.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/imagesloaded.pkgd-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.debouncedresize.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.debouncedresize-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.easing.1.3.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.easing.1.3-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.fittext.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.fittext-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.hammer.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.hammer-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.pubsub.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.pubsub-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/jquery.validate.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/min\/jquery.validate.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/libs\/single\/modernizr\/modernizr.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/libs\/single\/modernizr\/min\/modernizr-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.analytics.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.analytics-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.events.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.events-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.images.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.images-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.layout.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.layout-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.loading.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.loading-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.navigation.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.navigation-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/modules\/Site.utils.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/modules\/min\/Site.utils-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/Site.min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/_site\/source\/assets\/js\/min\/Site.min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/_site\/source\/assets\/js\/Site.min.js.map": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/source\/assets\/js\/Site.min.js.map",
-		"oF": 0
-		},
-	"\/_site\/source\/css\/screen.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/source\/css\/screen-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"\/_site\/source\/jekyll\/update\/2016\/08\/08\/welcome-to-jekyll.html": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_site\/source\/jekyll\/update\/2016\/08\/08\/welcome-to-jekyll.html",
 		"oF": 0
 		},
 	"\/build": {
@@ -536,19 +53,19 @@
 		},
 	"\/source\/_includes\/footer.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/head.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/icon-github.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_includes\/icon-github.html",
 		"oF": 0
 		},
@@ -564,7 +81,7 @@
 		},
 	"\/source\/_includes\/icon-twitter.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_includes\/icon-twitter.html",
 		"oF": 0
 		},
@@ -580,39 +97,39 @@
 		},
 	"\/source\/_includes\/social_links.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_includes\/social_links.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/default.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/homepage.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_layouts\/homepage.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/page.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/post.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/source\/_posts\/2016-08-08-welcome-to-jekyll.markdown": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/_posts\/2016-08-08-welcome-to-jekyll.markdown",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/about\/index.md": {
 		"cS": 0,
@@ -622,7 +139,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/source\/about\/index.html",
 		"oF": 0,
 		"oFM": 0,
@@ -631,6 +148,422 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/source\/assets\/css\/base\/_all.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/global\/_global-breakpoints.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_global-breakpoints.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/global\/_global-colours.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_global-colours.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/global\/_global-typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_global-typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-controls-buttons.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-controls-buttons.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-design-elements.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-design-elements.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-grid.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-maths.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-maths.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-media-queries.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-media-queries.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-media.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-media.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-sprites.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-sprites.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-states.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-states.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/modules\/_mod-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_mod-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/resets\/_drupal-reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_drupal-reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/resets\/_reset-forms.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_reset-forms.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/base\/resets\/_reset.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/base\/css\/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_atom-content.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_atom-content.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_cp_Brand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_cp_Brand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_cp_Info.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_cp_Info.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_cp_PageTitle.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_cp_PageTitle.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_cp_Social.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_cp_Social.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_document.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_document.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_fd_Section.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_fd_Section.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_gd_Layout.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_gd_Layout.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_hd_Headings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_hd_Headings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_st_Header.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_st_Header.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_tx_Basic.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_tx_Basic.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/components\/_tx_Prose.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/css\/css\/_tx_Prose.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/css\/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/source\/assets\/css\/screen.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt": {
 		"ft": 8192,
@@ -673,7 +606,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/source\/assets\/img\/jb_main_logo.svg",
-		"oF": 1,
+		"oF": 3,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -689,425 +622,9 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/source\/assets\/sass\/base\/_all.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_all.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/global\/_global-breakpoints.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_global-breakpoints.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/global\/_global-colours.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_global-colours.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/global\/_global-typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_global-typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-controls-buttons.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-controls-buttons.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-design-elements.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-design-elements.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-grid.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-grid.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-maths.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-maths.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-media-queries.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-media-queries.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-media.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-media.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-sprites.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-sprites.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-states.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-states.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-typography.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/modules\/_mod-units.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_mod-units.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/resets\/_drupal-reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_drupal-reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/resets\/_reset-forms.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_reset-forms.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/base\/resets\/_reset.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/base\/css\/_reset.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_atom-content.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_atom-content.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_cp_Brand.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_cp_Brand.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_cp_Info.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_cp_Info.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_cp_PageTitle.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_cp_PageTitle.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_cp_Social.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_cp_Social.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_document.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_document.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_fd_Section.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_fd_Section.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_gd_Layout.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_gd_Layout.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_hd_Headings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_hd_Headings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_st_Header.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_st_Header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_tx_Basic.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_tx_Basic.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/components\/_tx_Prose.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/sass\/css\/_tx_Prose.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/sass\/screen.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/source\/assets\/css\/screen.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/index.html": {
 		"ft": 8192,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/source\/index.html",
 		"oF": 0
 		}
@@ -2969,7 +2486,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
@@ -3088,10 +2605,19 @@
 		"targetECMAVersion": 0
 		},
 	"languageDefaultsUserDefined": [
+		{
+			"autoOutputAction": 1,
+			"autoOutputPathFilenamePattern": "*.html",
+			"autoOutputPathRelativePath": "",
+			"autoOutputPathReplace1": "",
+			"autoOutputPathReplace2": "",
+			"autoOutputPathStyle": 0,
+			"fileExtension": "html"
+			}
 		],
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
-	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules, \/build, .sass-cache",
 	"sourceFolderName": "source",
 	"susyVersion": 3,
 	"uglifyDefinesString": "",
