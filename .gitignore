@@ -58,4 +58,8 @@ screen.css.map
 _site
 .sass-cache
 .jekyll-metadata
+<<<<<<< HEAD
 build
+=======
+/build
+>>>>>>> origin/development-jekyll
