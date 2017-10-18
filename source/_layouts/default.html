@@ -2,13 +2,18 @@
 <html>
   {% include head.html %}
   <body>
-    <header class="st_Header ct_Pseudo">
+    <header class="st_PageHeader ct_Pseudo">
       <div class="cp_Brand">
         <a href="/" class="cp_Brand__link">
           <img src="/assets/img/jb_main_logo.svg" alt="JB" />
         </a>
       </div>
     </header>
-    {{ content }}
+    <main class="st_PageContent">
+      {{ content }}
+    </main>
+
+      {% include footer.html %}
+    
   </body>
 </html>
