@@ -2,18 +2,19 @@
 <html>
   {% include head.html %}
   <body>
-    <header class="st_PageHeader ct_Pseudo">
-      <div class="cp_Brand">
-        <a href="/" class="cp_Brand__link">
-          <img src="/assets/img/jb_main_logo.svg" alt="JB" />
-        </a>
-      </div>
-    </header>
-    <main class="st_PageContent">
-      {{ content }}
-    </main>
+    <div class="wrapper">
+      <header class="st_PageHeader ct_Pseudo">
+        <div class="cp_Brand">
+          <a href="/" class="cp_Brand__link">
+            <img src="/assets/img/jb_main_logo.svg" alt="JB" />
+          </a>
+        </div>
+      </header>
+      <main class="st_PageContent">
+        {{ content }}
+      </main>
 
       {% include footer.html %}
-    
+    </div>
   </body>
 </html>
