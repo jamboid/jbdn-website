@@ -51,12 +51,6 @@
 		"oAP": "\/Gemfile.lock",
 		"oF": 1
 		},
-	"\/source\/.jekyll-metadata": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/source\/.jekyll-metadata",
-		"oF": 0
-		},
 	"\/source\/_includes\/footer.html": {
 		"ft": 8192,
 		"oA": 1,
@@ -125,7 +119,7 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 0,
+		"oA": 1,
 		"oAP": "\/source\/about\/index.html",
 		"oF": 0,
 		"oFM": 0,
@@ -2484,7 +2478,7 @@
 		"strictUnits": 0
 		},
 	"languageDefaultsMARKDOWN": {
-		"autoOutputAction": 0,
+		"autoOutputAction": 1,
 		"autoOutputPathFilenamePattern": "*.html",
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
