@@ -4,15 +4,11 @@ class ShowHide {
   constructor(element) {
     this.element = element;
   }
-
-  get element() {
-    return this.element;
-  }
 }
 
 
-const shElement = document.createElement('div');
+let shElement = document.createElement('div');
 
-const thisShowHider = new ShowHide(shElement);
+let thisShowHider = new ShowHide(shElement);
 
-console.log(thisShowHider);
+console.log(thisShowHider.element);
