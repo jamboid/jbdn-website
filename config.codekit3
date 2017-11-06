@@ -212,16 +212,6 @@
 		"sC": 3,
 		"tS": 0
 		},
-	"\/source\/assets\/js\/nipper.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/source\/assets\/js\/min\/nipper-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/source\/assets\/scss\/base\/_all.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -639,7 +629,7 @@
 		"uL": 1
 		},
 	"\/source\/assets\/scss\/screen.scss": {
-		"aP": 0,
+		"aP": 1,
 		"bl": 0,
 		"dP": 10,
 		"dS": 0,
@@ -648,7 +638,7 @@
 		"oA": 0,
 		"oAP": "\/build\/assets\/css\/screen.css",
 		"oF": 2,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/source\/index.html": {
