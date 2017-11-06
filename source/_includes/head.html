@@ -1,7 +1,7 @@
 <head>
   <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
   <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
@@ -12,6 +12,6 @@
   <link rel="alternate" type="application/rss+xml" title="{{ site.title | escape }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
 
   <!-- Typekit -->
-  <!-- <script src="https://use.typekit.net/vnt8ovj.js"></script>
-  <script>try{Typekit.load({ async: true });}catch(e){}</script> -->
+  <script src="https://use.typekit.net/vnt8ovj.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>

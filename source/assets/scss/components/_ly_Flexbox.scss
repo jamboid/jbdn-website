@@ -5,45 +5,45 @@
 }
 
 // Controls the layout of a list of Promo components
-.gd_Promos,
-.gd_List {
+.fx_Promos,
+.fx_List {
   @include gridList;
 }
 
 // Simple row of elements
-.gd_Group {
+.fx_Group {
   @include gridRow;
 }
 
-.gd_NaturalGroup {
+.fx_NaturalGroup {
   @include gridNaturalRow;
 }
 
-.gd_Fill {
+.fx_Fill {
   @if $legacy == false {
     align-items: stretch;
   }
 }
 
-.gd_Natural {
+.fx_Natural {
   @include gridNaturalAlignment;
 }
 
 // Pair of elements that switch from row to col several times
-.gd_Group--pair {
+.fx_Group--pair {
   > * {
     width: 50%;
   }
 }
 
 // Pair of elements in a Primary content container
-.gd_Group--primaryPair {
+.fx_Group--primaryPair {
 
 }
 
 
 // Controls the layout of a Spotlight when in a grid of purely Spotlight components
-.gd_Spotlight {
+.fx_Spotlight {
   > * {
     width:50%;
     max-width:100%;
@@ -67,18 +67,18 @@
   // }
 }
 
-.gd_Promos {
+.fx_Promos {
 
 }
 
 // Controls the layout of a Spotlight when in a mixed grid of media components
-.gd_SpotlightInMix {
+.fx_SpotlightInMix {
   > * {
     width:25vw;
   }
 }
 
-.gd_Content {
+.fx_Content {
   @if $legacy == false {
     @include gridCol;
 
@@ -88,15 +88,15 @@
   }
 }
 
-.gd_Overlay {
+.fx_Overlay {
   @include gridCentreContent;
 }
 
-.gd_Footer {
+.fx_Footer {
   @include gridFooter;
 }
 
-.gd_PriSec {
+.fx_PriSec {
   @include gridTwoCols;
   margin-bottom: 38px;
 }

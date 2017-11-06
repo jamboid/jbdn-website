@@ -7,9 +7,10 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "25900",
+"creatorBuild": "26097",
 "files": {
 	"\/.gitignore": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/.gitignore",
@@ -22,6 +23,7 @@
 		"oF": 0
 		},
 	"\/_config.yml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/_config.yml",
@@ -34,88 +36,101 @@
 		"oF": 0
 		},
 	"\/feed.xml": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/feed.xml",
 		"oF": 1
 		},
 	"\/Gemfile": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/Gemfile",
 		"oF": 1
 		},
 	"\/Gemfile.lock": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/Gemfile.lock",
 		"oF": 1
 		},
 	"\/source\/_includes\/footer.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_includes\/footer.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/head.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_includes\/head.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/icon-github.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_includes\/icon-github.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/icon-twitter.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_includes\/icon-twitter.html",
 		"oF": 0
 		},
 	"\/source\/_includes\/social_links.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_includes\/social_links.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/default.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_layouts\/default.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/homepage.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_layouts\/homepage.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/page.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_layouts\/page.html",
 		"oF": 0
 		},
 	"\/source\/_layouts\/post.html": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/_layouts\/post.html",
 		"oF": 0
 		},
 	"\/source\/_posts\/2016-08-08-welcome-to-jekyll.markdown": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/source\/_posts\/2016-08-08-welcome-to-jekyll.markdown",
 		"oF": 0
 		},
 	"\/source\/about\/index.md": {
+		"cB": 0,
 		"cS": 0,
 		"eF": 1,
 		"eL": 1,
-		"eLB": 0,
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
@@ -130,6 +145,7 @@
 		"uCM": 0
 		},
 	"\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt": {
+		"cB": 0,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt",
@@ -139,7 +155,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_github.svg",
+		"oAP": "\/assets\/img\/icon_github.svg",
 		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
@@ -149,7 +165,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_instagram.svg",
+		"oAP": "\/assets\/img\/icon_instagram.svg",
 		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
@@ -159,7 +175,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_twitter.svg",
+		"oAP": "\/assets\/img\/icon_twitter.svg",
 		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
@@ -169,7 +185,7 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/jb_main_logo.svg",
+		"oAP": "\/assets\/img\/jb_main_logo.svg",
 		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
@@ -179,12 +195,32 @@
 		"ft": 32768,
 		"iS": 18763,
 		"oA": 0,
-		"oAP": "\/build\/assets\/img\/jb_pixel_face.png",
+		"oAP": "\/assets\/img\/jb_pixel_face.png",
 		"oF": 2,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/source\/assets\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/build\/assets\/js\/main.js",
+		"oF": 2,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/source\/assets\/js\/nipper.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/source\/assets\/js\/min\/nipper-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/source\/assets\/scss\/base\/_all.scss": {
 		"aP": 0,
@@ -616,10 +652,11 @@
 		"uL": 1
 		},
 	"\/source\/index.html": {
+		"cB": 1,
 		"ft": 8192,
 		"oA": 1,
 		"oAP": "\/source\/index.html",
-		"oF": 0
+		"oF": 1
 		}
 	},
 "hooks": [
@@ -630,7 +667,7 @@
 	"creationDate": 530489219,
 	"displayValue": "jbdn-2016",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-dunnoGirl"
+	"iconImageName": "meme-ron"
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -1166,6 +1203,10 @@
 			"active": 0,
 			"optionString": "'expression'"
 			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
 		"generator-star-spacing": {
 			"active": 0,
 			"optionString": "{'before': true, 'after': false}"
@@ -1230,9 +1271,9 @@
 			"active": 0,
 			"optionString": "{'beforeBlockComment': true}"
 			},
-		"lines-around-directive": {
+		"lines-between-class-members": {
 			"active": 0,
-			"optionString": "{'before': 'always', 'after': 'always'}"
+			"optionString": "'always', {exceptAfterSingleLine: false}"
 			},
 		"max-depth": {
 			"active": 0,
@@ -1262,6 +1303,10 @@
 			"active": 0,
 			"optionString": "{'max': 1}"
 			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
 		"multiline-ternary": {
 			"active": 0,
 			"optionString": "'always'"
@@ -1271,14 +1316,6 @@
 			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
 			},
 		"new-parens": {
-			"active": 0,
-			"optionString": ""
-			},
-		"newline-after-var": {
-			"active": 0,
-			"optionString": "'always'"
-			},
-		"newline-before-return": {
 			"active": 0,
 			"optionString": ""
 			},
@@ -2382,7 +2419,8 @@
 		"createSourceMap": 0,
 		"minifyOutput": 1,
 		"outputStyle": 0,
-		"syntaxCheckerStyle": 1
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
 		},
 	"languageDefaultsCSS": {
 		"autoOutputAction": 0,
@@ -2415,6 +2453,7 @@
 		"noEscapeInAttributes": 0,
 		"outputFormat": 2,
 		"outputStyle": 0,
+		"shouldRunCacheBuster": 0,
 		"useCDATA": 0,
 		"useDoubleQuotes": 0,
 		"useUnixNewlines": 0
@@ -2456,7 +2495,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "kit",
 		"autoOutputPathReplace2": "html",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsLESS": {
 		"allowInsecureImports": 0,
@@ -2488,13 +2528,13 @@
 		"enableFootnotes": 1,
 		"enableLabels": 1,
 		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
 		"maskEmailAddresses": 1,
 		"outputFormat": 0,
 		"outputStyle": 0,
 		"parseMetadata": 1,
 		"processHTML": 0,
 		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
 		"useCompatibilityMode": 0
 		},
 	"languageDefaultsOTHER": {
@@ -2503,7 +2543,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsPNG": {
 		"autoOutputAction": 0,
@@ -2523,7 +2564,8 @@
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
 		"compileDebug": 1,
-		"outputStyle": 0
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSASS": {
 		"autoOutputAction": 0,
@@ -2551,7 +2593,8 @@
 		"logicless": 0,
 		"outputFormat": 0,
 		"outputStyle": 1,
-		"railsCompatible": 0
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
 		},
 	"languageDefaultsSTYLUS": {
 		"autoOutputAction": 0,
@@ -2604,7 +2647,8 @@
 			"autoOutputPathReplace1": "",
 			"autoOutputPathReplace2": "",
 			"autoOutputPathStyle": 0,
-			"fileExtension": "html"
+			"fileExtension": "html",
+			"shouldRunCacheBuster": 0
 			}
 		],
 	"overrideExternalServerCSS": 0,
