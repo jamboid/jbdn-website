@@ -1,21 +1,14 @@
 /* != Component - Page Title */
 
 .cp_PageTitle {
-  width:100%;
-  max-width:90vw;
-  margin:0 auto;
-  padding:5vw 0;
-
   &__title {
     display: inline-block;
-    padding:10px;
     color:$clrDarkGrey;
   }
 }
 
-@include mq(plusOne($bpVader), $limit: min) {
+@include mq(plusOne($bpChewie), $limit: min) {
   .cp_PageTitle {
     max-width:90vw;
-    padding:50px 0;
   }
 }

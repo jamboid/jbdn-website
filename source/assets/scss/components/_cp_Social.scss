@@ -34,15 +34,15 @@
   }
 }
 
-@include mq($bpVader) {
+@include mq($bpChewie) {
   .cp_Social {
     &__link {
-      padding:vw(15,$bpVader);
+      padding:vw(15,$bpChewie);
     }
 
     &__svg {
-      width:vw(45,$bpVader);
-      height:vw(45,$bpVader);
+      width:vw(45,$bpChewie);
+      height:vw(45,$bpChewie);
     }
   }
 }

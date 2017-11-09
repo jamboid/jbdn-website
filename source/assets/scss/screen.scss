@@ -27,7 +27,7 @@ $legacy: false;
 /* !== Typography */
 @import "components/tx_Basic";
 @import "components/tx_Prose";
-@import "components/hd_Headings"; 
+@import "components/hd_Headings";
 
 /* !== Layout */
 @import "components/ly_Flexbox";
@@ -38,7 +38,7 @@ $legacy: false;
 @import "components/fd_Section";
 @import "components/cp_Brand";
 @import "components/cp_PageTitle";
-@import "components/cp_Info";
+@import "components/cp_MainContent"; 
 @import "components/cp_Social";
 
 /* !== Navigation */

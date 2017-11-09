@@ -16,6 +16,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
+	"\/.sass-cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.sass-cache",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -195,6 +201,16 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
+		},
+	"\/source\/assets\/img\/side_shape_main.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/side_shape_main.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
 		},
 	"\/source\/assets\/js\/main.js": {
 		"ft": 64,
@@ -479,7 +495,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/components\/_cp_Info.scss": {
+	"\/source\/assets\/scss\/components\/_cp_MainContent.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -487,7 +503,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_Info.css",
+		"oAP": "\/source\/assets\/scss\/css\/_cp_MainContent.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

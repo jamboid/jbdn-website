@@ -69,7 +69,7 @@
 }
 
 
-@include mq(plusOne($bpVader), $limit: min) {
+@include mq(plusOne($bpChewie), $limit: min) {
   .tx_Prose {
     h1 {
       font-size:em(58);
@@ -86,7 +86,7 @@
     h4,
     p,
     li {
-      font-size:em(37);
+      font-size:em(45);
     }
 
     ul {

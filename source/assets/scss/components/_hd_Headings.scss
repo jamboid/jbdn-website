@@ -5,30 +5,27 @@
 }
 
 .hd_Chewie {
-  font-size:em(36);
+  font-size:em(98);
   line-height: 1;
 }
 
 .hd_Han {
-  font-size:em(20);
+  font-size:em(54);
+}
+
+.hd_Luke {
+  font-size:em(42);
+}
+
+.hd_Rey {
+  font-size:em(28);
+  font-family:$bodyfontfamily;
 }
 
 @include mq(plusOne($bpArtoo), $limit: min) {
-  .hd_Chewie {
-    font-size:vw(36,$bpArtoo);
-  }
 
-  .hd_Han {
-    font-size:vw(20,$bpArtoo);
-  }
 }
 
-@include mq(plusOne($bpVader), $limit: min) {
-  .hd_Chewie {
-    font-size:em(62.5);
-  }
+@include mq(plusOne($bpChewie), $limit: min) {
 
-  .hd_Han {
-    font-size:em(42);
-  }
 }
