@@ -3,15 +3,15 @@
 @supports (display:grid) {
   .wrapper {
     display: grid;
+    min-height:100vh;
   }
-  
+
   /* !== Breakpoint */
   @include mq(plusOne($bpChewie), $limit: min) {
     .wrapper {
-      min-height:100vh;
       grid-template-columns:180px 800px auto;
       grid-column-gap:60px;
-      grid-template-rows:300px 1fr 100px;
+      grid-template-rows:300px 1fr 100px; 
       grid-row-gap:60px;
     }
   }
