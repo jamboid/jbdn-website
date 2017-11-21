@@ -16,12 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -124,6 +118,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/source\/_posts\/2016-08-08-welcome-to-jekyll.markdown",
+		"oF": 0
+		},
+	"\/source\/_posts\/2017-11-21-text-styles-test.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/source\/_posts\/2017-11-21-text-styles-test.markdown",
 		"oF": 0
 		},
 	"\/source\/about\/index.md": {

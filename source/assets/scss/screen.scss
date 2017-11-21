@@ -19,7 +19,7 @@ $legacy: false;
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
 @import "base/all";
 
-@import "components/atom-content";
+@import "components/atom-content"; 
 
 /* !== Global Rules */
 @import "components/document";
@@ -38,7 +38,7 @@ $legacy: false;
 @import "components/fd_Section";
 @import "components/cp_Brand";
 @import "components/cp_PageTitle";
-@import "components/cp_MainContent"; 
+@import "components/cp_MainContent";
 @import "components/cp_Social";
 
 /* !== Navigation */
