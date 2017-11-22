@@ -35,6 +35,16 @@
     list-style:disc;
     padding-left:20px;
   }
+
+  strong {
+    font-weight: $semibold;
+  }
+
+  a {
+    color:$clrPrimary;
+    text-decoration: none;
+    border-bottom:2px solid $clrPrimary;
+  }
 }
 
 
