@@ -13,7 +13,7 @@ gem "jekyll", "3.6"
 gem "jekyll-assets"
 gem "rb-fsevent", "~> 0.9.0"
 # gem "jekyll-admin"
-gem "octopress-autoprefixer"
+gem 'octopress', '~> 3.0'
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # gem "minima"

@@ -9,9 +9,9 @@
   /* !== Breakpoint */
   @include mq(plusOne($bpChewie), $limit: min) {
     .wrapper {
-      grid-template-columns:100px 800px auto;
+      grid-template-columns:180px 800px auto;
       grid-column-gap:60px;
-      grid-template-rows:300px 1fr 100px;
+      grid-template-rows:1fr 3fr 100px;
       grid-row-gap:60px;
     }
   }
@@ -19,10 +19,10 @@
   /* !== Breakpoint */
   @include mq($bpChewie) {
     .wrapper {
-      grid-template-columns:vw(100,$bpChewie) vw(800,$bpChewie) auto;
+      grid-template-columns:vw(180,$bpChewie) vw(800,$bpChewie) auto;
       grid-column-gap:vw(60,$bpChewie);
-      grid-template-rows:300px 1fr 100px;
-      grid-row-gap:60px;
+      grid-template-rows:1fr 3fr 100px;
+      grid-row-gap:vh(60,$bpChewie);
     }
   }
 
@@ -36,6 +36,7 @@
   .rg_PageHeader {
     grid-row:1 / span 1;
     align-self:end;
+    padding:20px 0;
 
   }
 
