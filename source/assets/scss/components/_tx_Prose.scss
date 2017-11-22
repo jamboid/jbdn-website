@@ -48,32 +48,32 @@
 }
 
 
-/* !== Breakpoint - Artoo */
-@include mq(plusOne($bpArtoo), $limit: min) {
+/* !== Breakpoint - bpLeia */
+@include mq(plusOne($bpLeia), $limit: min) {
   .tx_Prose {
     h1 {
-      font-size:vw(28,$bpArtoo);
+      font-size:vw(28,$bpLeia);
     }
 
     h2 {
-      font-size:vw(24,$bpArtoo);
+      font-size:vw(24,$bpLeia);
     }
 
     h3 {
-      font-size:vw(20,$bpArtoo);
+      font-size:vw(20,$bpLeia);
     }
 
     h4 {
-      font-size:vw(16,$bpArtoo);
+      font-size:vw(16,$bpLeia);
     }
 
     p,
     li {
-      font-size:vw(18,$bpArtoo);
+      font-size:vw(18,$bpLeia);
     }
 
     ul {
-      padding-left:vw(20,$bpArtoo);
+      padding-left:vw(20,$bpLeia);
     }
   }
 }
@@ -96,7 +96,7 @@
     h4,
     p,
     li {
-      font-size:em(45);
+      font-size:em(35.4);
     }
 
     ul {
