@@ -35,3 +35,6 @@ destination: build
 exclude: [config.codekit3, config.codekit, Gemfile, Gemfile.lock,'assets']
 # Keep in Build
 keep_files: ['assets']
+
+# Permalinks
+permalink: /articles/:title.html

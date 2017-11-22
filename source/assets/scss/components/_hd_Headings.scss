@@ -5,7 +5,7 @@
 }
 
 .hd_Chewie {
-  font-size:em(98);
+  font-size:em(28);
   line-height: 1;
 }
 
@@ -23,9 +23,13 @@
 }
 
 @include mq(plusOne($bpArtoo), $limit: min) {
-
+  .hd_Chewie {
+    font-size:vw(28,$bpArtoo);
+  }
 }
 
 @include mq(plusOne($bpChewie), $limit: min) {
-  
+  .hd_Chewie {
+    font-size:em(70);
+  }
 }
