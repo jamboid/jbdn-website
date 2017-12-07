@@ -3,6 +3,14 @@
 .cp_SiteTitle {
   &__heading {
     font-family:$bodyfontfamily;
-    font-weight:$bold;
+    font-weight:$medium;
+
+    strong {
+      font-weight:$bold;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
   }
 }

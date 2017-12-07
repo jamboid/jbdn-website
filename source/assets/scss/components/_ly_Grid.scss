@@ -9,29 +9,23 @@
   /* !== Breakpoint */
   @include mq(plusOne($bpChewie), $limit: min) {
     .wrapper {
-      grid-template-columns:auto 800px auto;
-      grid-column-gap:20px;
-      grid-template-rows:1fr 3fr 100px;
-      grid-row-gap:20px;
+      grid-template-columns:minmax(5vw, 10vw) 800px auto;
+      grid-template-rows:minmax(150px, 20vh) 3fr 100px;
     }
   }
 
   /* !== Breakpoint */
   @include mq($bpChewie) {
     .wrapper {
-      grid-template-columns:auto vw(800,$bpChewie) auto;
-      grid-column-gap:vw(20,$bpChewie);
-      grid-template-rows:1fr 3fr 100px;
-      grid-row-gap:vw(20,$bpChewie);
+      grid-template-columns:minmax(5vw, 10vw) vw(800,$bpChewie) auto;
+      grid-template-rows:minmax(150px, 20vh) 3fr 100px;
     }
   }
 
   @include mq($bpArtoo) {
     .wrapper {
       grid-template-columns:20px auto 20px;
-      grid-column-gap:vw(20,$bpChewie);
-      grid-template-rows:1fr 5fr auto;
-      grid-row-gap:vw(20,$bpChewie);
+      grid-template-rows:minmax(150px, 20vh) 5fr 100px;
     }
   }
 

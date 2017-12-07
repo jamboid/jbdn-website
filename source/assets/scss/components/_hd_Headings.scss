@@ -5,28 +5,28 @@
 }
 
 .hd_Chewie {
-  font-size:em(28);
-  font-weight:$medium;
+  font-size:em(48);
+  font-weight:$light;
   line-height: 1;
 }
 
 .hd_Han {
-  font-size:em(54);
+  font-size:em(48);
 }
 
 .hd_Luke {
-  font-size:em(42);
+  font-size:em(36);
 }
 
 .hd_Leia {
-  font-size:em(30);
+  font-size:em(24);
+  font-weight:$light;
 }
 
 .hd_Rey {
-  font-size:em(18);
-  font-weight:$medium;
-  text-transform: uppercase;
-  letter-spacing:-0.025em;
+  font-size:em(20);
+  //text-transform: uppercase;
+  letter-spacing:-0.015em;
 }
 
 .hd_Artoo {
@@ -35,20 +35,4 @@
   font-weight:$normal;
   font-style: italic;
   color:$clrLightGrey;
-}
-
-@include mq(plusOne($bpArtoo), $limit: min) {
-  .hd_Chewie {
-    font-size:em(42);
-  }
-
-  .hd_Rey {
-    font-size:em(24);
-  }
-}
-
-@include mq(plusOne($bpChewie), $limit: min) {
-  .hd_Chewie {
-    font-size:em(70);
-  }
 }
