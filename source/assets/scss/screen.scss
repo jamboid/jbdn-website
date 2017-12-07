@@ -19,14 +19,15 @@ $legacy: false;
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
 @import "base/all";
 
-@import "components/atom-content";
+@import "components/atom-content"; 
 @import "components/base-links";
+
 
 /* !== Global Rules */
 @import "components/document";
 
 /* !== Typography */
-@import "components/tx_Basic";
+@import "components/base-typography";
 @import "components/tx_Prose";
 @import "components/hd_Headings";
 

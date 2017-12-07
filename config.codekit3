@@ -7,7 +7,7 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "26097",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -15,12 +15,6 @@
 		"oA": 1,
 		"oAP": "\/.gitignore",
 		"oF": 1
-		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
 		},
 	"\/_config.yml": {
 		"cB": 0,
@@ -502,6 +496,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_base-typography.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_base-typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -654,19 +661,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/css\/_st_Header.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/components\/_tx_Basic.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_tx_Basic.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

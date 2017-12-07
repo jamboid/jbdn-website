@@ -1,7 +1,8 @@
 /* != Site Title - Component */
 
 .cp_SiteTitle {
-  &__title {
-    
+  &__heading {
+    font-family:$bodyfontfamily;
+    font-weight:$bold;
   }
 }

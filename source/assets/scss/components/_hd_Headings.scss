@@ -6,7 +6,7 @@
 
 .hd_Chewie {
   font-size:em(28);
-  font-weight:$bold;
+  font-weight:$medium;
   line-height: 1;
 }
 
@@ -18,15 +18,19 @@
   font-size:em(42);
 }
 
+.hd_Leia {
+  font-size:em(30);
+}
+
 .hd_Rey {
   font-size:em(18);
-  font-weight:$bold;
+  font-weight:$medium;
   text-transform: uppercase;
   letter-spacing:-0.025em;
 }
 
 .hd_Artoo {
-  font-family:$bodyfontfamily;  
+  font-family:$bodyfontfamily;
   font-size:em(16);
   font-weight:$normal;
   font-style: italic;
@@ -35,7 +39,7 @@
 
 @include mq(plusOne($bpArtoo), $limit: min) {
   .hd_Chewie {
-    font-size:vw(28,$bpArtoo);
+    font-size:em(42);
   }
 
   .hd_Rey {

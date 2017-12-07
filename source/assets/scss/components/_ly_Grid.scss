@@ -9,7 +9,7 @@
   /* !== Breakpoint */
   @include mq(plusOne($bpChewie), $limit: min) {
     .wrapper {
-      grid-template-columns:100px 800px auto;
+      grid-template-columns:auto 800px auto;
       grid-column-gap:20px;
       grid-template-rows:1fr 3fr 100px;
       grid-row-gap:20px;
@@ -19,7 +19,7 @@
   /* !== Breakpoint */
   @include mq($bpChewie) {
     .wrapper {
-      grid-template-columns:vw(100,$bpChewie) vw(800,$bpChewie) auto;
+      grid-template-columns:auto vw(800,$bpChewie) auto;
       grid-column-gap:vw(20,$bpChewie);
       grid-template-rows:1fr 3fr 100px;
       grid-row-gap:vw(20,$bpChewie);
