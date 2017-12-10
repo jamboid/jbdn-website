@@ -25,6 +25,7 @@ github_username:  jamboid
 markdown: kramdown
 source: source
 destination: build
+port: 4444
 
 # Sass
 # sass:

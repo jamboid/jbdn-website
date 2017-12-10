@@ -1,0 +1,17 @@
+/* != Typography - Basic Styles */
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:$displayfontfamily;
+  font-weight:$medium;
+}
+
+p,li {
+  line-height:1.5;
+}
+
+/* !== Breakpoint */
+@include mq(plusOne($bpLuke), $limit: min) {
+  p,li {
+    font-size:em(20);
+  }
+}

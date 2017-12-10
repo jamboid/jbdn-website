@@ -5,31 +5,34 @@
 }
 
 .hd_Chewie {
-  font-size:em(28);
+  font-size:em(48);
+  font-weight:$light;
   line-height: 1;
 }
 
 .hd_Han {
-  font-size:em(54);
+  font-size:em(48);
 }
 
 .hd_Luke {
-  font-size:em(42);
+  font-size:em(36);
+}
+
+.hd_Leia {
+  font-size:em(24);
+  font-weight:$light;
 }
 
 .hd_Rey {
-  font-size:em(28);
+  font-size:em(20);
+  //text-transform: uppercase;
+  letter-spacing:-0.015em;
+}
+
+.hd_Artoo {
   font-family:$bodyfontfamily;
-}
-
-@include mq(plusOne($bpArtoo), $limit: min) {
-  .hd_Chewie {
-    font-size:vw(28,$bpArtoo);
-  }
-}
-
-@include mq(plusOne($bpChewie), $limit: min) {
-  .hd_Chewie {
-    font-size:em(70);
-  }
+  font-size:em(16);
+  font-weight:$normal;
+  font-style: italic;
+  color:$clrLightGrey;
 }

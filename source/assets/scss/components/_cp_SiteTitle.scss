@@ -1,0 +1,16 @@
+/* != Site Title - Component */
+
+.cp_SiteTitle {
+  &__heading {
+    font-family:$bodyfontfamily;
+    font-weight:$medium;
+
+    strong {
+      font-weight:$bold;
+    }
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+}
