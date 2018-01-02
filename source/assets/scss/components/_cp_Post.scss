@@ -5,7 +5,12 @@
     margin:0 0 em(60);
   }
 
+  /* &__title {
+    padding-bottom: 20px;
+    border-bottom: 1px solid $clrVeryLightGrey;
+  } */
+
   &__meta {
-    
+    display: none;
   }
 }

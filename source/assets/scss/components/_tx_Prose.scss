@@ -7,32 +7,65 @@
   }
 
   h2 {
-    font-size:em(24);
-    margin:em(35,24) 0 em(10,24);
+    font-size:em(28);
+    margin:em(50,28) 0 em(20,28);
 
     &:first-child {
       margin-top: 0;
     }
   }
 
-  p,
-  li {
-    font-size:em(16);
-    margin:0 0 1em;
+  p {
+    margin:0 0 1.5em;
   }
 
   li {
-    margin-bottom:0.2em;
+    margin-bottom:0.3em;
   }
 
   ul,
   ol {
-    margin:0 0 1em;
+    margin:0 0 1.5em;
+    list-style:none;
+
+    li {
+      position: relative;
+
+      &:before {
+        position: absolute;
+        left: -25px;
+      }
+    }
   }
 
   ul {
-    list-style:disc;
-    padding-left:20px;
+    li {
+      &:before {
+        content:"";
+        display: block;
+        width: 8px;
+        height: 8px;
+        background:$clrPrimary;
+        border-radius:50%;
+        top: 0.5em;
+      }
+    }
+  }
+
+  ol {
+    counter-reset: section;
+
+    li {
+      position: relative;
+
+      &:before {
+        font-weight:$semibold;
+        text-align: right;
+        color:$clrPrimary;
+        counter-increment: section;
+        content: counter(section) ".";
+      }
+    }
   }
 
   strong {
@@ -44,12 +77,19 @@
     text-decoration: none;
     border-bottom:2px solid $clrPrimary;
   }
+
+  blockquote {
+    > * {
+      padding-left: 20px;
+      border-left:5px solid $clrPrimary;
+    }
+  }
 }
 
 
 /* !== Breakpoint - bpLeia */
-@include mq(plusOne($bpLeia), $limit: min) {
+/* @include mq(plusOne($bpLeia), $limit: min) {
   .tx_Prose {
     font-size:1.25em;
   }
-}
+} */
