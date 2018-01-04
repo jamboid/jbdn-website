@@ -26,6 +26,7 @@
   ul,
   ol {
     margin:0 0 1.5em;
+    padding-left: 28px;
     list-style:none;
 
     li {
@@ -88,8 +89,14 @@
 
 
 /* !== Breakpoint - bpLeia */
-/* @include mq(plusOne($bpLeia), $limit: min) {
+@include mq($bpRey) {
   .tx_Prose {
-    font-size:1.25em;
+    h2 {
+      font-size:em(20);
+    }
+
+    p,li {
+      font-size:em(16);
+    }
   }
-} */
+}

@@ -1,53 +1,69 @@
 /* != Layout - CSS Grid */
 
 @supports (display:grid) {
+  body {
+    background:$clrDarkGrey;
+  }
+
   .wrapper {
     display: grid;
+    max-width:1400px;
     min-height:100vh;
+    background:$clrWhite;
+    grid-template-columns:240px 800px auto;
+    grid-template-rows:auto minmax(20px, 5vw) 1fr 100px;
   }
 
-  /* !== Breakpoint */
-  @include mq(plusOne($bpChewie), $limit: min) {
-    .wrapper {
-      grid-template-columns:minmax(5vw, 10vw) 800px auto;
-      grid-template-rows:minmax(150px, 20vh) 3fr 100px;
-    }
-  }
-
-  /* !== Breakpoint */
-  @include mq($bpChewie) {
-    .wrapper {
-      grid-template-columns:minmax(5vw, 10vw) vw(800,$bpChewie) auto;
-      grid-template-rows:minmax(150px, 20vh) 3fr 100px;
-    }
-  }
-
-  @include mq($bpArtoo) {
-    .wrapper {
-      grid-template-columns:20px auto 20px;
-      grid-template-rows:minmax(150px, 20vh) 5fr 100px;
-    }
-  }
-
-/* !== Regions */
-  .rg_PageHeader,
+  /* !== Regions */
   .rg_PageContent,
   .rg_PageFooter {
     grid-column: 2 / span 1;
   }
 
   .rg_PageHeader {
-    grid-row:1 / span 1; 
+    grid-column: 1 / span 1;
+    grid-row:1 / span 1;
     align-self:start;
-    padding:30px 0;
+    padding:30px;
 
   }
 
   .rg_PageContent {
-    grid-row:2 / span 1;
+    grid-row:3 / span 1;
   }
 
   .rg_PageFooter {
-    grid-row:3 / span 1;
+    grid-row:4 / span 1;
+  }
+
+  /* !== Breakpoint */
+  @include mq($bpChewie) {
+    .wrapper {
+      grid-template-columns:160px vw(800,$bpChewie) auto;
+    }
+  }
+
+  /* !== Breakpoint */
+  @include mq($bpRey) {
+    .wrapper {
+      grid-template-columns:30px auto 30px;
+    }
+
+    .rg_PageHeader,
+    .rg_PageContent,
+    .rg_PageFooter {
+      grid-column: 2 / span 1;
+    }
+
+    .rg_PageHeader {
+      padding:0 0 30px;
+    }
+  }
+
+  /* !== Breakpoint */
+  @include mq($bpArtoo) {
+    .wrapper {
+      grid-template-columns:20px auto 20px;
+    }
   }
 }

@@ -37,3 +37,17 @@
   font-style: italic;
   color:$clrLightGrey;
 }
+
+/* !== Breakpoint */
+@include mq($bpRey) {
+  .hd_Chewie {
+    font-size:em(36);
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .hd_Chewie {
+    font-size:em(28);
+  }
+}
