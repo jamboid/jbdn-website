@@ -2,6 +2,9 @@
 
 .cp_Copyright {
   &__message {
-    padding:1em 0;
+    font-size:em(16);
+    font-weight:$semibold;
+    opacity: 0.5;
+    padding:1em 0 0;
   }
 }

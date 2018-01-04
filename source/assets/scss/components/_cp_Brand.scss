@@ -1,7 +1,6 @@
 /* != Main Brand Component in Header */
 
 .cp_Brand {
-
   &__link {
     background:$clrDarkGrey;
     padding:135px 12px 16px;
@@ -20,12 +19,12 @@
 @include mq($bpRey) {
   .cp_Brand {
     &__link {
-      padding:30px 12px 16px;
+      padding:25px 9px 12px;
       border-radius:0 0 6px 6px;
     }
 
     &__image {
-      width: 45px;
+      width: 35px;
       height: auto;
     }
   }
