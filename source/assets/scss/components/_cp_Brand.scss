@@ -1,13 +1,31 @@
 /* != Main Brand Component in Header */
 
 .cp_Brand {
-
   &__link {
+    background:$clrDarkGrey;
+    padding:135px 12px 16px;
+    border-radius:5px;
     display: inline-block;
+    line-height: 0;
   }
 
-  img {
-    width: 92px;
+  &__image {
+    width: 57px;
     height: auto;
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpRey) {
+  .cp_Brand {
+    &__link {
+      padding:25px 9px 12px;
+      border-radius:0 0 6px 6px;
+    }
+
+    &__image {
+      width: 35px;
+      height: auto;
+    }
   }
 }

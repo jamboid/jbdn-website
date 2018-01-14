@@ -1,0 +1,38 @@
+/* != Blog Post Component */
+
+.cp_Post {
+  &__header {
+    margin:0 0 em(60);
+  }
+
+  &__meta {
+    //display: none;
+    text-transform: uppercase;
+    font-size:em(16);
+    letter-spacing:em(1,16);
+    font-weight:$semibold;
+    opacity:0.5;
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpRey) {
+  .cp_Post {
+    &__header {
+      margin-bottom:em(40);
+    }
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_Post {
+    &__header {
+      margin-bottom:em(20);
+    }
+
+    &__meta {
+      font-size:em(14);
+    }
+  }
+}
