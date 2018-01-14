@@ -148,16 +148,16 @@
 	"\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt": {
 		"cB": 0,
 		"ft": 8192,
-		"oA": 1,
+		"oA": 2,
 		"oAP": "\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt",
-		"oF": 0
+		"oF": 1
 		},
 	"\/source\/assets\/img\/icon_github.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/icon_github.svg",
-		"oF": 2,
+		"oF": 3,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -167,7 +167,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/icon_instagram.svg",
-		"oF": 2,
+		"oF": 3,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -177,7 +177,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/icon_twitter.svg",
-		"oF": 2,
+		"oF": 3,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -187,7 +187,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/jb_main_logo.svg",
-		"oF": 2,
+		"oF": 3,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -195,9 +195,9 @@
 	"\/source\/assets\/img\/jb_pixel_face.png": {
 		"ft": 32768,
 		"iS": 18763,
-		"oA": 0,
+		"oA": 2,
 		"oAP": "\/assets\/img\/jb_pixel_face.png",
-		"oF": 2,
+		"oF": 3,
 		"oIPL": 0,
 		"opt": 0,
 		"oT": 1,
@@ -208,7 +208,7 @@
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/source\/assets\/img\/side_shape_main.svg",
-		"oF": 0,
+		"oF": 1,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
