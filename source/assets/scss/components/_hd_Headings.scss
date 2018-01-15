@@ -2,6 +2,14 @@
 
 [class*=hd_] {
   font-family:$displayfontfamily;
+  letter-spacing:em(-3,128);
+}
+
+.hd_Force {
+  font-size:em(128);
+  line-height: 1.2;
+  font-weight:$bold;
+  color:$clrSecondary;
 }
 
 .hd_Chewie {
@@ -36,6 +44,13 @@
   font-weight:$normal;
   font-style: italic;
   color:$clrLightGrey;
+}
+
+/* !== Breakpoint */
+@include mq($bpChewie) {
+  .hd_Force {
+    font-size:vw(128,$bpChewie);
+  }
 }
 
 /* !== Breakpoint */
