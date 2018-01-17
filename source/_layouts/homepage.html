@@ -1,6 +1,7 @@
 ---
-layout: default
+layout: root
 ---
+{% include header.html %}
 <main class="rg_PageContent">
   <div class="cp_PageTitle">
     <div class="cp_PageTitle__inner">
@@ -13,3 +14,4 @@ layout: default
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>
   {% endfor %}
 </main>
+{% include footer.html %} 
