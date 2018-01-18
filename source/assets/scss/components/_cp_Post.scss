@@ -5,12 +5,35 @@
     margin:0 0 em(60);
   }
 
-  /* &__title {
-    padding-bottom: 20px;
-    border-bottom: 1px solid $clrVeryLightGrey;
-  } */
-
   &__meta {
-    display: none;
+    //display: none;
+    text-transform: uppercase;
+    font-size:em(16);
+    letter-spacing:em(1,16);
+    font-weight:$semibold;
+    opacity:0.5;
+    margin:0 0 em(20);
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpRey) {
+  .cp_Post {
+    &__header {
+      margin-bottom:em(40);
+    }
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_Post {
+    &__header {
+      margin-bottom:em(20);
+    }
+
+    &__meta {
+      font-size:em(14);
+    }
   }
 }

@@ -1,10 +1,15 @@
 ---
-layout: default
+layout: root
+section: home
+title: JBdn Homepage
 ---
+
+{% include header.html %}
+
 <main class="rg_PageContent">
   <div class="cp_PageTitle">
     <div class="cp_PageTitle__inner">
-      <h1 class="cp_PageTitle__title hd_Chewie">Lorem ipsum dolor.</h1>
+      <h1 class="cp_PageTitle__title hd_Force">Hello there.</h1>
     </div>
   </div>
   {{ content }}
@@ -13,3 +18,4 @@ layout: default
     <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://erjjones.github.com{{ post.url }}#disqus_thread"></a></small></p>
   {% endfor %}
 </main>
+{% include footer.html %}

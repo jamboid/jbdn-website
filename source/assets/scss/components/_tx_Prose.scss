@@ -8,6 +8,7 @@
 
   h2 {
     font-size:em(28);
+    color:var(--secondaryColour, $clrSecondary);
     margin:em(50,28) 0 em(20,28);
 
     &:first-child {
@@ -26,6 +27,7 @@
   ul,
   ol {
     margin:0 0 1.5em;
+    padding-left: 28px;
     list-style:none;
 
     li {
@@ -79,17 +81,30 @@
   }
 
   blockquote {
+    font-size:1.2em;
+
     > * {
+
       padding-left: 20px;
-      border-left:5px solid $clrPrimary;
+      border-left:5px solid rgba($clrSecondary,0.3);
     }
+  }
+
+  &--small {
+    font-size:0.8em;
   }
 }
 
 
 /* !== Breakpoint - bpLeia */
-/* @include mq(plusOne($bpLeia), $limit: min) {
+@include mq($bpRey) {
   .tx_Prose {
-    font-size:1.25em;
+    h2 {
+      font-size:em(20);
+    }
+
+    p,li {
+      font-size:em(16);
+    }
   }
-} */
+}

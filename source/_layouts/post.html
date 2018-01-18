@@ -1,12 +1,14 @@
 ---
 layout: default
+section: post
 ---
 <main class="rg_PageContent">
 <article class="cp_Post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="cp_Post__header">
-    <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ page.title | escape }}</h1>
     <p class="cp_Post__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+
+    <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ page.title | escape }}</h1>
   </header>
 
   <div class="cp_Post__content tx_Prose" itemprop="articleBody">
@@ -14,5 +16,4 @@ layout: default
   </div>
 
 </article>
-
 </main>
