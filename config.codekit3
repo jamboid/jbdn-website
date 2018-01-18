@@ -16,6 +16,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
+	"\/.sass-cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.sass-cache",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
