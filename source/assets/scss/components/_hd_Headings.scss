@@ -9,7 +9,7 @@
   font-size:em(128);
   line-height: 1.2;
   font-weight:$bold;
-  color:$clrSecondary;
+  color:var(--secondaryColour, $clrSecondary);
 }
 
 .hd_Chewie {

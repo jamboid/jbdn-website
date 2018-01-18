@@ -7,7 +7,7 @@
     max-width:1400px;
     min-height:100vh;
     background:$clrBackground;
-    border-right:40px solid $clrSecondary;
+    border-right:40px solid var(--secondaryColour, $clrSecondary);
     grid-template-columns:240px 800px auto;
     grid-template-rows:auto 1fr 50px auto 100px;
   }
