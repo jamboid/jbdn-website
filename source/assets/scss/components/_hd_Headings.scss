@@ -2,11 +2,12 @@
 
 [class*=hd_] {
   font-family:$displayfontfamily;
-  letter-spacing:em(-3,128);
+  letter-spacing:em(-3,92);
 }
 
 .hd_Force {
-  font-size:em(128);
+  font-size:em(92);
+  margin:0 0 em(40,92);
   line-height: 1.2;
   font-weight:$bold;
   color:var(--secondaryColour, $clrSecondary);
@@ -49,20 +50,20 @@
 /* !== Breakpoint */
 @include mq($bpChewie) {
   .hd_Force {
-    font-size:vw(128,$bpChewie);
+    font-size:vw(92,$bpChewie);
   }
 }
 
 /* !== Breakpoint */
 @include mq($bpRey) {
   .hd_Chewie {
-    font-size:em(36);
+    font-size:em(48);
   }
 }
 
 /* !== Breakpoint */
 @include mq($bpArtoo) {
   .hd_Chewie {
-    font-size:em(28);
+    font-size:em(36);
   }
 }

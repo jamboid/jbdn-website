@@ -11,7 +11,7 @@ body {
   }
 
   color:$clrPrimary;
-  background:var(--secondaryColour, $clrSecondary);
+  background:$clrBackground;
   font-size:100%;
   font-family:$bodyfontfamily;
   font-weight:$normal;

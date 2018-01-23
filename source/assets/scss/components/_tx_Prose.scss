@@ -21,7 +21,7 @@
   }
 
   li {
-    margin-bottom:0.3em;
+    margin-bottom:0.4em;
   }
 
   ul,
@@ -92,6 +92,10 @@
 
   &--small {
     font-size:0.8em;
+  }
+
+  > *:last-child {
+    margin-bottom: 0;
   }
 }
 
