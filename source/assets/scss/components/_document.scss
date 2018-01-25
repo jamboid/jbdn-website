@@ -2,8 +2,8 @@
 
 /* Rules for <html> and <body> go here */
 body {
-  --secondaryColour: $clrBlue;
-  --secondaryColourShadow: rgba($clrBlue,0.25);
+  --secondaryColour: $clrAccent;
+  --secondaryColourShadow: rgba($clrAccent,0.33);
 
 
   &.home {

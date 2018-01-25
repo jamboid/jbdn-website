@@ -13,6 +13,7 @@
 
   &__imageShadow {
     fill:var(--secondaryColour, $clrSecondary);
+    opacity: 0.5;
   }
 }
 
