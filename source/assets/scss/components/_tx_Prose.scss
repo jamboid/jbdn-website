@@ -7,9 +7,10 @@
   }
 
   h2 {
-    font-size:em(28);
-    color:var(--secondaryColour, $clrSecondary);
-    margin:em(50,28) 0 em(20,28);
+    font-size:em(32);
+    text-shadow: 1px 1px 0 $clrWhite, 3px 3px 0px var(--secondaryColourShadow);
+
+    margin:em(50,32) 0 em(20,32);
 
     &:first-child {
       margin-top: 0;

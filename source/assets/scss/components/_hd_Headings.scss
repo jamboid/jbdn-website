@@ -51,12 +51,16 @@
 /* !== Breakpoint */
 @include mq($bpChewie) {
   .hd_Force {
-    font-size:vw(92,$bpChewie);
+    font-size:vw(128,$bpChewie);
   }
 }
 
 /* !== Breakpoint */
 @include mq($bpRey) {
+  .hd_Force {
+    font-size:em(54);
+  }
+
   .hd_Chewie {
     font-size:em(48);
   }

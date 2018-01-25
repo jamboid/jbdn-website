@@ -17,16 +17,15 @@
 }
 
 /* !== Breakpoint */
-@include mq($bpRey) {
+@include mq($bpHan) {
   .cp_Brand {
     &__link {
-      padding:25px 9px 12px;
-      border-radius:0 0 6px 6px;
+      padding:15px 0 0;
     }
 
     &__image {
-      width: 35px;
-      height: auto;
+      width: 60px;
+      //height: auto;
     }
   }
 }
