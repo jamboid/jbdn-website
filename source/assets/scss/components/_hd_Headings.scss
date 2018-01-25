@@ -2,22 +2,23 @@
 
 [class*=hd_] {
   font-family:$displayfontfamily;
-  letter-spacing:em(-3,92);
+  letter-spacing:em(-3,128);
 }
 
 .hd_Force {
-  font-size:em(92);
-  margin:0 0 em(40,92);
+  font-size:em(128);
+  margin:0 0 em(40,128);
   line-height: 1.2;
   font-weight:$bold;
-  color:var(--secondaryColour, $clrSecondary);
+  text-shadow: 2px 2px 0 $clrWhite, 8px 5px 0px var(--secondaryColourShadow);
 }
 
 .hd_Chewie {
-  font-size:em(48);
+  font-size:em(54);
   font-weight:$bold;
   line-height: 1;
-  margin:0 0 em(10,48);
+  margin:0 0 em(10,54);
+  text-shadow: 1px 1px 0 $clrWhite, 4px 4px 0px var(--secondaryColourShadow);
 }
 
 .hd_Han {

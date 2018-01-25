@@ -2,12 +2,16 @@
 
 /* Rules for <html> and <body> go here */
 body {
+  --secondaryColour: $clrBlue;
+  --secondaryColourShadow: rgba($clrBlue,0.25);
+
+
   &.home {
-    --secondaryColour: $clrRed;
+
   }
 
   &.post {
-    --secondaryColour: $clrBlue;
+
   }
 
   color:$clrPrimary;
