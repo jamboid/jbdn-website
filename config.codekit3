@@ -16,6 +16,12 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
+	"\/.sass-cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.sass-cache",
+		"oF": 0
+		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -202,16 +208,6 @@
 		"oA": 2,
 		"oAP": "\/assets\/img\/jb_main_logo.svg",
 		"oF": 2,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/source\/assets\/img\/jb_monogram_box.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/source\/assets\/img\/jb_monogram_box.svg",
-		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -539,19 +535,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/css\/_base-typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/components\/_cp_ArticleLinks.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_ArticleLinks.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1

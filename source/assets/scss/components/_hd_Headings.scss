@@ -6,8 +6,8 @@
 }
 
 .hd_Force {
-  font-size:em(128);
-  margin:0 0 em(40,128);
+  font-size:em(92);
+  margin:0 0 em(40,92);
   line-height: 1.2;
   font-weight:$bold;
   text-shadow: 2px 2px 0 $clrWhite, 8px 5px 0px var(--secondaryColourShadow);
@@ -51,7 +51,7 @@
 /* !== Breakpoint */
 @include mq($bpChewie) {
   .hd_Force {
-    font-size:vw(128,$bpChewie);
+    font-size:vw(92,$bpChewie);
   }
 }
 
