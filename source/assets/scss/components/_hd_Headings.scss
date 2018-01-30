@@ -48,6 +48,14 @@
   color:$clrLightGrey;
 }
 
+.hd_Yoda {
+  font-family:$bodyfontfamily;
+  font-size:em(14);
+  font-weight:$semibold;
+  letter-spacing: em(1.78,16);
+  text-transform: uppercase;
+}
+
 /* !== Breakpoint */
 @include mq($bpChewie) {
   .hd_Force {
@@ -70,5 +78,9 @@
 @include mq($bpArtoo) {
   .hd_Chewie {
     font-size:em(36);
+  }
+
+  .hd_Yoda {
+    font-size: em(12);
   }
 }

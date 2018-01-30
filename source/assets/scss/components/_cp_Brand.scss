@@ -20,13 +20,8 @@
 /* !== Breakpoint */
 @include mq($bpHan) {
   .cp_Brand {
-    &__link {
-      padding:15px 0 0;
-    }
-
     &__image {
       width: 60px;
-      //height: auto;
     }
   }
 }

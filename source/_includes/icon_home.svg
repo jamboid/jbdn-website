@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
+  <defs>
+    <polygon id="icon_home-b" points="0 28 0 10 14.5 0 29 10 29 28 18 28 18 17.5 11 17.5 11 28"/>
+    <filter id="icon_home-a" width="131%" height="132.1%" x="-6.9%" y="-7.1%" filterUnits="objectBoundingBox">
+      <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.270588235   0 0 0 0 0.752941176   0 0 0 0 1  0 0 0 0.5 0"/>
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feComposite in="shadowOffsetOuter2" in2="SourceAlpha" operator="out" result="shadowOffsetOuter2"/>
+      <feColorMatrix in="shadowOffsetOuter2" result="shadowMatrixOuter2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#icon_home-a)" xlink:href="#icon_home-b"/>
+    <use fill="#FFF" xlink:href="#icon_home-b"/>
+    <path stroke="#3F3F3F" stroke-width="3" d="M1.5,26.5 L9.5,26.5 L9.5,16 L19.5,16 L19.5,26.5 L27.5,26.5 L27.5,10.7876464 L14.5,1.82212913 L1.5,10.7876464 L1.5,26.5 Z"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="37" viewBox="0 0 26 37">
+  <defs>
+    <path id="icon_person-b" d="M14.4047832,11.4487176 C16.6891498,14.5342193 17.4469455,16.7595219 18,24.8996236 L14,24.8996236 L14,29 L4,29 L4,24.8996236 L0,24.8996236 C0.553054497,16.7595219 1.31085024,14.5342193 3.59521677,11.4487176 C2.5985699,10.2392772 2,8.68954034 2,7 C2,3.13400675 5.13400675,0 9,0 C12.8659932,0 16,3.13400675 16,7 C16,8.68954034 15.4014301,10.2392772 14.4047832,11.4487176 Z"/>
+    <filter id="icon_person-a" width="167.3%" height="141.4%" x="-20%" y="-12.1%" filterUnits="objectBoundingBox">
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="shadowSpreadOuter1"/>
+      <feOffset dx="4" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"/>
+      <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.270588235   0 0 0 0 0.752941176   0 0 0 0 1  0 0 0 0.5 0"/>
+      <feMorphology in="SourceAlpha" operator="dilate" radius="1.5" result="shadowSpreadOuter2"/>
+      <feOffset dx="1" dy="1" in="shadowSpreadOuter2" result="shadowOffsetOuter2"/>
+      <feComposite in="shadowOffsetOuter2" in2="SourceAlpha" operator="out" result="shadowOffsetOuter2"/>
+      <feColorMatrix in="shadowOffsetOuter2" result="shadowMatrixOuter2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+  </defs>
+  <g fill="none" fill-rule="evenodd" transform="translate(2 2)">
+    <use fill="#000" filter="url(#icon_person-a)" xlink:href="#icon_person-b"/>
+    <use fill="#FFF" stroke="#3F3F3F" stroke-width="3" xlink:href="#icon_person-b"/>
+    <circle cx="9" cy="7" r="7" fill="#FFF" stroke="#3F3F3F" stroke-width="3"/>
+  </g>
+</svg>

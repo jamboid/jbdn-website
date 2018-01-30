@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="40" viewBox="0 0 40 40">
+  <defs>
+    <polygon id="icon_hammer-b" points="29.648 12.849 36.012 19.213 24.698 30.527 18.335 24.163 7.021 35.477 .657 29.113 11.971 17.799 6.314 12.142 17.627 .828 23.284 6.485 26.113 3.657 32.477 10.021"/>
+    <filter id="icon_hammer-a" width="125.5%" height="126%" x="-5.7%" y="-5.8%" filterUnits="objectBoundingBox">
+      <feOffset dx="4" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"/>
+      <feColorMatrix in="shadowOffsetOuter1" result="shadowMatrixOuter1" values="0 0 0 0 0.270588235   0 0 0 0 0.752941176   0 0 0 0 1  0 0 0 0.5 0"/>
+      <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter2"/>
+      <feColorMatrix in="shadowOffsetOuter2" result="shadowMatrixOuter2" values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0"/>
+      <feMerge>
+        <feMergeNode in="shadowMatrixOuter1"/>
+        <feMergeNode in="shadowMatrixOuter2"/>
+      </feMerge>
+    </filter>
+    <rect id="icon_hammer-c" width="9" height="36" x="12.067" y="1.567"/>
+    <rect id="icon_hammer-d" width="26" height="16" x="8.163" y="7.678"/>
+  </defs>
+  <g fill="none" fill-rule="evenodd">
+    <use fill="#000" filter="url(#icon_hammer-a)" xlink:href="#icon_hammer-b"/>
+    <use fill="#FFF" xlink:href="#icon_hammer-b"/>
+    <g transform="rotate(45 16.567 19.567)">
+      <use fill="#FFF" xlink:href="#icon_hammer-c"/>
+      <rect width="6" height="33" x="13.567" y="3.067" stroke="#3F3F3F" stroke-width="3"/>
+    </g>
+    <g transform="rotate(45 21.163 15.678)">
+      <use fill="#FFF" xlink:href="#icon_hammer-d"/>
+      <rect width="23" height="13" x="9.663" y="9.178" stroke="#3F3F3F" stroke-width="3"/>
+    </g>
+  </g>
+</svg>
