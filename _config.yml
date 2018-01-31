@@ -38,4 +38,4 @@ exclude: [config.codekit3, config.codekit, Gemfile, Gemfile.lock,'assets']
 keep_files: ['assets']
 
 # Permalinks
-permalink: /articles/:title.html
+permalink: /notes/:title.html

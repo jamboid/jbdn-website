@@ -1,0 +1,36 @@
+---
+layout: root
+section: home
+title: JBdn Homepage
+---
+
+{% include header.html %}
+{% include nav.html %}
+
+<main class="rg_PageContent">
+  <div class="cp_PageIntro tx_Prose">
+    {{ content }}
+  </div>
+
+  <div class="cp_ArticleLinks">
+  {% for post in site.posts %}
+
+    <article class="cp_Post" itemscope itemtype="http://schema.org/BlogPosting">
+
+      <header class="cp_Post__header">
+        <p class="cp_Post__meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+
+        <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ post.title | escape }}</h1>
+      </header>
+
+      <div class="cp_Post__content tx_Prose" itemprop="articleBody">
+        {{ post.content }}
+      </div>
+
+    </article>
+
+
+  {% endfor %}
+  </div>
+</main>
+{% include footer.html %}
