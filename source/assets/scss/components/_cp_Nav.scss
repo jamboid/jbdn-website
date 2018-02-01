@@ -42,8 +42,14 @@
     line-height: 0;
     min-height:40px;
   }
+}
 
-  &__location {
 
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_Nav {
+    &__menuItem {
+      margin:0 8px;
+    }
   }
 }

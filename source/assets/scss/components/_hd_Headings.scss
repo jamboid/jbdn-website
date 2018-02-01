@@ -1,21 +1,21 @@
 /* != Headings */
 
 [class*=hd_] {
-  font-family:$displayfontfamily;
-  letter-spacing:em(-3,128);
+  font-weight:$semibold;
+  letter-spacing:$headingSpacing;
 }
 
 .hd_Force {
   font-size:em(92);
+  font-family:$displayfontfamily;
   margin:0 0 em(40,92);
   line-height: 1.2;
-  font-weight:$bold;
   text-shadow: 2px 2px 0 $clrWhite, 5px 5px 0px var(--secondaryColourShadow);
 }
 
 .hd_Chewie {
-  font-size:em(54);
-  font-weight:$bold;
+  font-size:em(48);
+  font-family:$displayfontfamily;
   line-height: 1;
   margin:0 0 em(10,54);
   text-shadow: 1px 1px 0 $clrWhite, 4px 4px 0px var(--secondaryColourShadow);
