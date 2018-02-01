@@ -10,9 +10,11 @@
     width: 94px;
     height: auto;
   }
+}
 
-  &__imageShadow {
-    fill:var(--secondaryColour, $clrSecondary);
+svg {
+  .themeFill {
+    fill:var(--secondaryColour, $clrSecondary) !important;
     opacity: 0.5;
   }
 }
