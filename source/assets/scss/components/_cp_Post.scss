@@ -1,17 +1,26 @@
 /* != Blog Post Component */
 
 .cp_Post {
+  margin-top:em(100);
+
+  &:first-child {
+    margin-top: 0;
+  }
+
   &__header {
-    margin:0 0 em(60);
+    margin:0 0 em(40);
   }
 
   &__meta {
     //display: none;
-    text-transform: uppercase;
-    font-size:em(16);
+    //text-transform: uppercase;
+    //font-family:$displayfontfamily;
+    color:var(--secondaryColour);
+    //font-size:em(18);
+    font-style: italic;
     letter-spacing:em(1,16);
     font-weight:$semibold;
-    opacity:0.5;
+    opacity:0.75;
     margin:0 0 em(20);
   }
 }

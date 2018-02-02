@@ -1,8 +1,7 @@
 ---
 layout: page
-title: About me
+title: About all the things
 ---
-# Heading Level 1
 
 ## Heading Level 2
 

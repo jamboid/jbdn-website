@@ -28,7 +28,7 @@
 
       &:after {
         bottom:-12px;
-        opacity: 0.5;
+        opacity: 1;
       }
     }
   }
@@ -42,8 +42,14 @@
     line-height: 0;
     min-height:40px;
   }
+}
 
-  &__location {
 
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_Nav {
+    &__menuItem {
+      margin:0 8px;
+    }
   }
 }

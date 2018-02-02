@@ -25,7 +25,7 @@ github_username:  jamboid
 markdown: kramdown
 source: source
 destination: build
-port: 4444
+port: 4000 
 
 # Sass
 # sass:
@@ -38,4 +38,8 @@ exclude: [config.codekit3, config.codekit, Gemfile, Gemfile.lock,'assets']
 keep_files: ['assets']
 
 # Permalinks
-permalink: /articles/:title.html
+permalink: /notes/:title.html
+
+# Gems
+gems:
+  - octopress-minify-html
