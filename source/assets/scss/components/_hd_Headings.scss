@@ -2,7 +2,7 @@
 
 [class*=hd_] {
   font-weight:$semibold;
-  letter-spacing:$headingSpacing;
+  letter-spacing:em(-4,128);
 }
 
 .hd_Force {

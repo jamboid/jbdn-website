@@ -18,9 +18,10 @@ title: JBdn Homepage
     <article class="cp_Post" itemscope itemtype="http://schema.org/BlogPosting">
 
       <header class="cp_Post__header">
-        <p class="cp_Post__meta"><time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
 
         <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ post.title | escape }}</h1>
+        <p class="cp_Post__meta">This note was published on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+
       </header>
 
       <div class="cp_Post__content tx_Prose" itemprop="articleBody">
