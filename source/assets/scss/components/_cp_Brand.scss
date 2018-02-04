@@ -13,7 +13,7 @@
 }
 
 svg {
-  .themeFill {
+  .themeFill { 
     fill:var(--secondaryColour, $clrSecondary) !important;
     opacity: 0.5;
   }
