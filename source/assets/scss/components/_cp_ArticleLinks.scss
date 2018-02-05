@@ -2,4 +2,10 @@
 
 .cp_ArticleLinks {
   margin:50px 0;
+
+  &__link {
+    display: block;
+    text-decoration: none;
+    margin:0 0 1em;
+  }
 }

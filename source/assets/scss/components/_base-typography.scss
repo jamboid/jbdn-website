@@ -11,6 +11,6 @@ p,li {
 /* !== Breakpoint */
 @include mq(plusOne($bpLuke), $limit: min) {
   p,li {
-    font-size:em(19);
+    font-size:em(20);
   }
 }

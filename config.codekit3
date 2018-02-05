@@ -163,6 +163,13 @@
 		"oAP": "\/source\/_layouts\/homepage.html",
 		"oF": 0
 		},
+	"\/source\/_layouts\/notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/source\/_layouts\/notes.html",
+		"oF": 0
+		},
 	"\/source\/_layouts\/page.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -244,12 +251,52 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/assets\/img\/icon_hammer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_hammer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_home.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/assets\/img\/icon_instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/icon_instagram.svg",
 		"oF": 3,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_person.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_person.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -828,6 +875,24 @@
 		"oA": 1,
 		"oAP": "\/source\/index.html",
 		"oF": 1
+		},
+	"\/source\/notes\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/source\/notes\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [
