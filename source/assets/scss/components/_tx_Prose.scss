@@ -16,6 +16,12 @@
     }
   }
 
+  h3 {
+    font-size:em(22);
+    line-height: 1.5;
+    margin:0 0 em(30,22);
+  }
+
   p {
     margin:0 0 1.5em;
   }
@@ -105,6 +111,10 @@
   .tx_Prose {
     h2 {
       font-size:em(20);
+    }
+
+    h3 {
+      font-size:em(18);
     }
 
     p,li {
