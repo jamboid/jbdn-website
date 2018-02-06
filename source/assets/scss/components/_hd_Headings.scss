@@ -2,8 +2,8 @@
 
 [class*=hd_] {
   font-family: $displayfontfamily;
-  font-weight:$medium;
-  letter-spacing:em(-2,128);
+  font-weight:$semibold;
+  letter-spacing:em(-4,128);
 }
 
 .hd_Force {
@@ -49,6 +49,7 @@
 }
 
 .hd_Yoda {
+  font-family:$bodyfontfamily;
   font-size:em(14);
   font-weight:$semibold;
   letter-spacing: em(1.78,16);
