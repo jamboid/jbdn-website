@@ -8,17 +8,17 @@
 
 .hd_Force {
   font-size:em(72);
-  margin:0 0 em(20,72);
+  margin:0 0 em(50,72);
   line-height: 1.2;
-  color:$clrAccent;
+  //color:$clrAccent;
   //text-shadow: 2px 2px 0 $clrWhite, 5px 5px 0px var(--secondaryColourShadow);
 }
 
 .hd_Chewie {
   font-size:em(48);
   line-height: 1;
-  margin:0 0 em(25,48);
-  color:$clrAccent;
+  margin:0 0 em(35,48);
+  //color:$clrAccent;
   //text-shadow: 1px 1px 0 $clrWhite, 4px 4px 0px var(--secondaryColourShadow);
 }
 
@@ -49,7 +49,7 @@
 }
 
 .hd_Yoda {
-  font-family:$bodyfontfamily;
+  font-family:$displayfontfamily;
   font-size:em(14);
   font-weight:$semibold;
   letter-spacing: em(1.78,16);

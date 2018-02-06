@@ -2,6 +2,7 @@
 title: Text Styles Test
 date: 2017-11-21T12:44:30+00:00
 layout: post
+intro: This is the intro copy for this post, mostly to appear on listings of posts
 ---
 
 ## Sub-Heading Eos minus doloribus ipsa
