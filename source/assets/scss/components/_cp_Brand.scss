@@ -14,8 +14,11 @@
 
 svg {
   .themeFill {
-    fill:var(--secondaryColour, $clrSecondary) !important;
-    opacity: 0.75;
+    fill:var(--iconShadow, $clrPrimary) !important;
+  }
+
+  .svgBackgroundFill {
+    fill:var(--iconCutout, $clrBackground) !important;
   }
 }
 

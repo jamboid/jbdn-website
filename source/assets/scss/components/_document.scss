@@ -2,9 +2,14 @@
 
 /* Rules for <html> and <body> go here */
 body {
+  --primaryColour: $clrPrimary;
   --secondaryColour: $clrAccent;
-  --secondaryColourShadow: rgba($clrAccent,0.33);
-
+  --secondaryColourShadow: rgba($clrPrimary,0.33);
+  --backgroundColour: $clrBackground;
+  --iconDark: $clrPrimary;
+  --iconLight: $clrWhite;
+  --iconCutout: $clrBackground;
+  --iconShadow: rgba($clrAccent,0.33);
 
   &.home {
 
