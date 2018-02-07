@@ -4,7 +4,7 @@
 body {
   --primaryColour: $clrPrimary;
   --secondaryColour: $clrAccent;
-  --secondaryColourShadow: rgba($clrPrimary,0.33);
+  --secondaryColourShadow: rgba($clrAccent,0.5);
   --backgroundColour: $clrBackground;
   --iconDark: $clrPrimary;
   --iconLight: $clrWhite;
