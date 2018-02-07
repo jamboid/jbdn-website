@@ -30,6 +30,7 @@ $legacy: false;
 @import "components/base-typography";
 @import "components/tx_Prose";
 @import "components/hd_Headings";
+@import "components/ob_Icon";
 
 /* !== Layout */
 @import "components/ly_Flexbox";
@@ -46,5 +47,6 @@ $legacy: false;
 @import "components/cp_Post";
 @import "components/cp_Social";
 @import "components/cp_Copyright";
+@import "components/cp_Biog";
 
 /* !== Navigation */

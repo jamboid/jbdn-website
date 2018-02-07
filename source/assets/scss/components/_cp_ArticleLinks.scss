@@ -9,6 +9,10 @@
     margin:0 0 2em;
   }
 
+  &__title {
+    color:var(--secondaryColour, $clrAccent);
+  }
+
   &__intro {
     font-size:em(20);
     margin:0 0 em(12,20);

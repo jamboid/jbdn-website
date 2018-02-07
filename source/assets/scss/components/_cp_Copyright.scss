@@ -2,6 +2,7 @@
 
 .cp_Copyright {
   &__message {
+    font-family:$displayfontfamily;
     font-size:em(16);
     font-weight:$semibold;
     opacity: 0.5;

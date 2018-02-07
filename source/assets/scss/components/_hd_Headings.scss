@@ -51,9 +51,9 @@
 .hd_Yoda {
   font-family:$displayfontfamily;
   font-size:em(14);
-  font-weight:$semibold;
-  letter-spacing: em(1.78,16);
-  text-transform: uppercase;
+  font-weight:$medium;
+  letter-spacing:-0.015em;
+  //text-transform: uppercase;
 }
 
 /* !== Breakpoint */

@@ -12,16 +12,6 @@
   }
 }
 
-svg {
-  .themeFill {
-    fill:var(--iconShadow, $clrPrimary) !important;
-  }
-
-  .svgBackgroundFill {
-    fill:var(--iconCutout, $clrBackground) !important;
-  }
-}
-
 /* !== Breakpoint */
 @include mq($bpHan) {
   .cp_Brand {

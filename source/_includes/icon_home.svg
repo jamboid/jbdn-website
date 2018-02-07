@@ -3,8 +3,8 @@
     <polygon id="icon_home-a" points="0 28 0 10 14.5 0 29 10 29 28 18 28 18 17.5 11 17.5 11 28"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <polygon class="themeFill" fill="#45C0FF" points="4 32 4 14 18.5 4 33 14 33 32 22 32 22 21.5 15 21.5 15 32"/>
-    <polygon class="svgBackgroundFill" fill="#FFF" points="1 29 1 11 15.5 1 30 11 30 29 19 29 19 18.5 12 18.5 12 29"/>
+    <polygon class="ob_Icon__shadow" fill="#45C0FF" points="4 32 4 14 18.5 4 33 14 33 32 22 32 22 21.5 15 21.5 15 32"/>
+    <polygon class="ob_Icon__cutout" fill="#FFF" points="1 29 1 11 15.5 1 30 11 30 29 19 29 19 18.5 12 18.5 12 29"/>
     <use fill="#FFF" xlink:href="#icon_home-a"/>
     <path stroke="#3F3F3F" stroke-width="3" d="M1.5,26.5 L9.5,26.5 L9.5,16 L19.5,16 L19.5,26.5 L27.5,26.5 L27.5,10.7876464 L14.5,1.82212913 L1.5,10.7876464 L1.5,26.5 Z"/>
   </g>
