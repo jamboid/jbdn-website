@@ -4,12 +4,12 @@
 body {
   --primaryColour: $clrPrimary;
   --secondaryColour: $clrAccent;
-  --secondaryColourShadow: rgba($clrAccent,0.75);
+  --secondaryColourShadow: rgba($clrAccent,0.5);
   --backgroundColour: $clrBackground;
   --iconDark: $clrPrimary;
   --iconLight: $clrWhite;
   --iconCutout: $clrBackground;
-  --iconShadow: rgba($clrAccent,0.75);
+  --iconShadow: rgba($clrAccent,0.5);
 
   &.home {
 
