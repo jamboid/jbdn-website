@@ -7,7 +7,7 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "26261",
+"creatorBuild": "26148",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -15,6 +15,12 @@
 		"oA": 1,
 		"oAP": "\/.gitignore",
 		"oF": 1
+		},
+	"\/.sass-cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/.sass-cache",
+		"oF": 0
 		},
 	"\/_config.yml": {
 		"cB": 0,
@@ -1409,10 +1415,6 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
-			},
-		"implicit-arrow-linebreak": {
-			"active": 0,
-			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,
