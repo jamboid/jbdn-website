@@ -8,8 +8,11 @@
 $textBase: 16;
 
 /* ! Font Families */
-$displayfontfamily: "bookmania",Georgia,Times,serif;
-$bodyfontfamily:"Avenir Next","Avenir",Verdana,sans-serif;
+//$bodyfontfamily:-apple-system, BlinkMacSystemFont,"Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//$bodyfontfamily: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+//$displayfontfamily: "bookmania",Georgia,Times,serif;
+$bodyfontfamily:"Athelas","Palatino",Georgia,Times,serif;
+$displayfontfamily: "gitan-latin",sans-serif;
 $codefontfamily: "Consolas",monaco,monospace;
 
 /* ! Font Weights */

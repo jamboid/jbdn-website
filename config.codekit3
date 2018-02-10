@@ -169,6 +169,13 @@
 		"oAP": "\/source\/_layouts\/homepage.html",
 		"oF": 0
 		},
+	"\/source\/_layouts\/notes.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/source\/_layouts\/notes.html",
+		"oF": 0
+		},
 	"\/source\/_layouts\/page.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -250,12 +257,52 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/assets\/img\/icon_hammer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_hammer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_home.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/assets\/img\/icon_instagram.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/img\/icon_instagram.svg",
 		"oF": 3,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/img\/icon_person.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/img\/icon_person.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -301,6 +348,16 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
+	"\/source\/assets\/img\/portrait_placeholder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/portrait_placeholder.svg",
+		"oF": 2,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
 	"\/source\/assets\/img\/side_shape_main.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -330,6 +387,19 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/css\/_all.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/_modularscale.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_modularscale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -369,6 +439,136 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/base\/css\/_global-typography.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_function.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_function.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_pow.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_pow.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_respond.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_respond.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_round-px.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_round-px.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_settings.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_settings.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_sort.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_sort.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_strip-units.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_strip-units.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_sugar.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_sugar.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_target.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_target.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/source\/assets\/scss\/base\/modularscale\/_vars.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/base\/css\/_vars.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -620,6 +820,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_cp_Biog.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_cp_Biog.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -789,6 +1002,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_ob_Icon.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_ob_Icon.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_st_Header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -834,6 +1060,24 @@
 		"oA": 1,
 		"oAP": "\/source\/index.html",
 		"oF": 1
+		},
+	"\/source\/notes\/index.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"oA": 1,
+		"oAP": "\/source\/notes\/index.html",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		}
 	},
 "hooks": [

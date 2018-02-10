@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
+<svg class="ob_Icon" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="33" height="32" viewBox="0 0 33 32">
   <defs>
     <polygon id="icon_pencil-a" points="0 28 0 16.449 16.449 0 28.654 10.808 14.327 25.135 11.423 28"/>
   </defs>
   <g fill="none" fill-rule="evenodd">
-    <polygon class="themeFill" fill="#45C0FF" points="4 32 4 20.449 20.449 4 32.654 14.808 18.327 29.135 15.423 32"/>
-    <polygon fill="#FFF" points="1 29 1 17.449 17.449 1 29.654 11.808 15.327 26.135 12.423 29"/>
+    <polygon class="ob_Icon__shadow" fill="#45C0FF" points="4 32 4 20.449 20.449 4 32.654 14.808 18.327 29.135 15.423 32"/>
+    <polygon class="ob_Icon__cutout" fill="#FFF" points="1 29 1 17.449 17.449 1 29.654 11.808 15.327 26.135 12.423 29"/>
     <use fill="#FFF" xlink:href="#icon_pencil-a"/>
     <path stroke="#3F3F3F" stroke-width="3" d="M1.5,26.5 L10.8074604,26.5 L13.2664121,24.0739254 L26.4664592,10.8738782 L16.5116021,2.05886334 L1.5,17.0704654 L1.5,26.5 Z"/>
     <polyline stroke="#3F3F3F" stroke-width="3" points="1.986 17.231 5.324 20.568 8.661 17.231 11.998 20.568 15.336 17.231" transform="rotate(-135 8.661 18.9)"/>

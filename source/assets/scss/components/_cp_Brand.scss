@@ -12,13 +12,6 @@
   }
 }
 
-svg {
-  .themeFill { 
-    fill:var(--secondaryColour, $clrSecondary) !important;
-    opacity: 0.5;
-  }
-}
-
 /* !== Breakpoint */
 @include mq($bpHan) {
   .cp_Brand {

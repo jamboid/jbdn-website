@@ -1,0 +1,11 @@
+/* !== Icons */
+
+.ob_Icon {
+  &__cutout {
+    fill:var(--iconCutout, $clrBackground) !important;
+  }
+
+  &__shadow {
+    fill:var(--iconShadow, $clrAccent) !important;
+  }
+}

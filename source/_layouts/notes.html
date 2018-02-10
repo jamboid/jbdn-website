@@ -8,6 +8,9 @@ title: JBdn Homepage
 {% include nav.html %}
 
 <main class="rg_PageContent">
+  <div class="cp_PageTitle">
+    <h1 class="cp_PageTitle__title hd_Chewie">{{ page.title | escape }}</h1>
+  </div>
   <div class="cp_PageIntro tx_Prose">
     {{ content }}
   </div>
@@ -15,20 +18,16 @@ title: JBdn Homepage
   <div class="cp_ArticleLinks">
   {% for post in site.posts %}
 
-    <article class="cp_Post" itemscope itemtype="http://schema.org/BlogPosting">
+    <a href="{{post.url}}" class="cp_ArticleLinks__link" itemscope itemtype="http://schema.org/BlogPosting">
 
-      <header class="cp_Post__header">
-
-        <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ post.title | escape }}</h1>
-        <p class="cp_Post__meta">This note was published on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
-
-      </header>
-
-      <div class="cp_Post__content tx_Prose" itemprop="articleBody">
+        <h2 class="cp_ArticleLinks__title hd_Luke" itemprop="name headline">{{ post.title | escape }}</h2>
+        <p class="cp_ArticleLinks__intro">{{ post.intro }}</p>
+        <p class="cp_ArticleLinks__meta">This note was published on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+      <!-- <div class="cp_Post__content tx_Prose" itemprop="articleBody">
         {{ post.content }}
-      </div>
+      </div> -->
 
-    </article>
+    </a>
 
 
   {% endfor %}

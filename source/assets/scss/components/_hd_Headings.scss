@@ -1,24 +1,25 @@
 /* != Headings */
 
 [class*=hd_] {
-  font-weight:$semibold;
-  letter-spacing:em(-4,128);
+  font-family: $displayfontfamily;
+  font-weight:$medium;
+  letter-spacing:em(-2,128);
 }
 
 .hd_Force {
-  font-size:em(92);
-  font-family:$displayfontfamily;
-  margin:0 0 em(20,92);
+  font-size:em(72);
+  margin:0 0 em(50,72);
   line-height: 1.2;
-  text-shadow: 2px 2px 0 $clrWhite, 5px 5px 0px var(--secondaryColourShadow);
+  //color:$clrAccent;
+  text-shadow: 2px 2px 0 $clrWhite, 4px 4px 0px var(--secondaryColourShadow);
 }
 
 .hd_Chewie {
   font-size:em(48);
-  font-family:$displayfontfamily;
   line-height: 1;
-  margin:0 0 em(10,54);
-  text-shadow: 1px 1px 0 $clrWhite, 4px 4px 0px var(--secondaryColourShadow);
+  margin:0 0 em(35,48);
+  //color:$clrAccent;
+  text-shadow: 1px 1px 0 $clrWhite, 3px 3px 0px var(--secondaryColourShadow);
 }
 
 .hd_Han {
@@ -41,7 +42,6 @@
 }
 
 .hd_Artoo {
-  font-family:$bodyfontfamily;
   font-size:em(16);
   font-weight:$normal;
   font-style: italic;
@@ -49,11 +49,11 @@
 }
 
 .hd_Yoda {
-  font-family:$bodyfontfamily;
+  font-family:$displayfontfamily;
   font-size:em(14);
-  font-weight:$semibold;
-  letter-spacing: em(1.78,16);
-  text-transform: uppercase;
+  font-weight:$medium;
+  letter-spacing:-0.015em;
+  //text-transform: uppercase;
 }
 
 /* !== Breakpoint */
@@ -72,12 +72,20 @@
   .hd_Chewie {
     font-size:em(48);
   }
+
+  .hd_Luke {
+    font-size:em(28);
+  }
 }
 
 /* !== Breakpoint */
 @include mq($bpArtoo) {
   .hd_Chewie {
     font-size:em(36);
+  }
+
+  .hd_Luke {
+    font-size:em(24);
   }
 
   .hd_Yoda {

@@ -2,9 +2,14 @@
 
 /* Rules for <html> and <body> go here */
 body {
+  --primaryColour: $clrPrimary;
   --secondaryColour: $clrAccent;
-  --secondaryColourShadow: rgba($clrAccent,0.33);
-
+  --secondaryColourShadow: rgba($clrAccent,0.5);
+  --backgroundColour: $clrBackground;
+  --iconDark: $clrPrimary;
+  --iconLight: $clrWhite;
+  --iconCutout: $clrBackground;
+  --iconShadow: rgba($clrAccent,0.5);
 
   &.home {
 
@@ -14,8 +19,8 @@ body {
 
   }
 
-  color:$clrPrimary;
-  background:$clrBackground;
+  color:var(--primaryColour, $clrPrimary);
+  background:(--backgroundColour, $clrBackground);
   font-size:100%;
   font-family:$bodyfontfamily;
   font-weight:$normal;
@@ -31,5 +36,5 @@ body {
 }
 
 .wrapper {
-  background:$clrWhite;
+  background:(--backgroundColour, $clrBackground);
 }
