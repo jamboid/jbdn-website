@@ -9,7 +9,10 @@ title: JBdn Homepage
 
 <main class="rg_PageContent">
   <div class="cp_PageTitle">
-    <h1 class="cp_PageTitle__title hd_Chewie">{{ page.title | escape }}</h1>
+    <h1 class="cp_PageTitle__title hd_Chewie">
+      {% include icon_pencil.svg %}
+      {{ page.title | escape }}
+    </h1>
   </div>
   <div class="cp_PageIntro tx_Prose">
     {{ content }}
