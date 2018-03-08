@@ -1,17 +1,16 @@
 /* != Layout - CSS Grid */
 
-@supports (display:grid) {
-
+@supports (display: grid) {
   .wrapper {
     display: grid;
-    max-width:100%;
-    min-height:100vh;
-    background:$clrBackground;
-    border-right:40px solid var(--secondaryColour, $clrSecondary);
-    grid-template-columns:200px repeat(4, minmax(10vw,175px)) auto;
-    grid-column-gap:30px;
-    grid-row-gap:30px;
-    grid-template-rows:auto 1fr auto 100px;
+    max-width: 100%;
+    min-height: 100vh;
+    background: $clrBackground;
+    border-right: 40px solid var(--secondaryColour, $clrSecondary);
+    grid-template-columns: 200px repeat(4, minmax(10vw, 175px)) auto;
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    grid-template-rows: auto 1fr auto 100px;
   }
 
   /* !== Regions */
@@ -22,74 +21,74 @@
 
   .rg_PageHeader {
     grid-column: 1 / span 1;
-    grid-row:1 / span 1;
-    align-self:start;
-    padding:30px 0 30px 30px;
+    grid-row: 1 / span 1;
+    align-self: start;
+    padding: 30px 0 30px 30px;
   }
 
   .rg_Nav {
     grid-column: 2 / span 5;
-    grid-row:1 / span 1;
-    align-self:center;
-    align-content:center;
-    padding:0 30px;
+    grid-row: 1 / span 1;
+    align-self: center;
+    align-content: center;
+    padding: 0 30px;
   }
 
   .rg_PageContent {
-    grid-row:2 / span 1;
+    grid-row: 2 / span 1;
   }
 
   .rg_PageFooter {
-    padding:30px 0 0;
-    border-top:1px solid $clrVeryLightGrey;
-    grid-row:3 / span 1;
+    padding: 30px 0 0;
+    border-top: 1px solid $clrVeryLightGrey;
+    grid-row: 3 / span 1;
     /* Grid Container Rules */
-    display:grid;
-    grid-template-columns:2fr 1fr;
-    grid-template-rows:1fr auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr auto;
   }
 
   /* Footer Components */
 
   .cp_Biog {
-    grid-column:1 / span 1;
-    grid-row:1 / span 2;
+    grid-column: 1 / span 1;
+    grid-row: 1 / span 2;
   }
 
   .cp_Copyright,
   .cp_SocialLinks {
-    grid-column:2 / span 1;
-    justify-self:end;
+    grid-column: 2 / span 1;
+    justify-self: end;
   }
 
   .cp_Copyright {
-    grid-row:2 / span 1;
+    grid-row: 2 / span 1;
   }
 
   .cp_SocialLinks {
-    grid-row:1 / span 1;
-    align-self:end;
+    grid-row: 1 / span 1;
+    align-self: end;
   }
 
   /* !== Breakpoint */
   @include mq($bpChewie) {
     .wrapper {
-      grid-template-columns:160px repeat(4, minmax(10vw,160px)) auto;
+      grid-template-columns: 160px repeat(4, minmax(10vw, 160px)) auto;
     }
   }
 
   /* !== Breakpoint */
   @include mq($bpHan) {
     .wrapper {
-      grid-template-columns:90px repeat(4, minmax(10vw,160px)) auto;
+      grid-template-columns: 90px repeat(4, minmax(10vw, 160px)) auto;
     }
   }
 
   /* !== Breakpoint */
   @include mq($bpRey) {
     .wrapper {
-      grid-template-columns:10px repeat(4, 1fr) 10px;
-      grid-gap:10px;
+      grid-template-columns: 10px repeat(4, 1fr) 10px;
+      grid-gap: 10px;
     }
 
     .rg_PageContent,
@@ -99,7 +98,7 @@
 
     .rg_PageHeader {
       grid-column: 2 / span 1;
-      padding:15px 0;
+      padding: 15px 0;
     }
 
     .rg_Nav {
@@ -111,7 +110,7 @@
   /* !== Breakpoint */
   @include mq($bpArtoo) {
     .wrapper {
-      border:none;
+      border: none;
     }
   }
 }

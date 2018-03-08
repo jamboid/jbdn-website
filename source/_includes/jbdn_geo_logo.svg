@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="126" height="97" viewBox="0 0 126 97" class="cp_Brand__image">
+  <g fill="none" fill-rule="evenodd">
+    <path class="ob_Icon__shadow" fill="#45C0FF" d="M106,36 L86,36 L86,16 L62,16 L62,6 L86,6 L106,6 L106,16 L126,16 L126,36 L106,36 Z"/>
+    <path class="ob_Icon__cutout" fill="#FFF" d="M102,32 L82,32 L82,12 L62,12 L62,2 L82,2 L102,2 L102,12 L122,12 L122,32 L102,32 Z"/>
+    <rect class="ob_Icon__shadow" width="20" height="20" x="86" y="56" fill="#45C0FF" />
+    <rect class="ob_Icon__cutout" width="20" height="20" x="82" y="52" fill="#FFF"/>
+    <path class="ob_Icon__shadow" fill="#45C0FF" d="M27,77 L47,77 L47,57 L47,37 L27,37 L27,17 L47,17 L47,16 L67,16 L67,37 L67,57 L67,77 L67,97 L47,97 L27,97 L7,97 L7,77 L27,77 Z"/>
+    <path class="ob_Icon__cutout" fill="#FFF" d="M22,72 L42,72 L42,52 L42,32 L22,32 L22,12 L42,12 L62,12 L62,32 L62,52 L62,72 L62,92 L42,92 L22,92 L2,92 L2,72 L22,72 Z"/>
+    <path fill="#3F3F3F" d="M20,70 L40,70 L40,50 L40,30 L20,30 L20,10 L40,10 L60,10 L60,30 L60,50 L60,70 L60,90 L40,90 L20,90 L0,90 L0,70 L20,70 Z"/>
+    <path fill="#3F3F3F" d="M100,30 L80,30 L80,10 L60,10 L60,0 L80,0 L100,0 L100,10 L120,10 L120,30 L100,30 Z"/>
+    <rect width="20" height="20" x="80" y="50" fill="#3F3F3F"/>
+  </g>
+</svg>

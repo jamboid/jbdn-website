@@ -7,7 +7,8 @@ section: post
 
   <header class="cp_Post__header">
     <h1 class="cp_Post__title hd_Chewie" itemprop="name headline">{{ page.title | escape }}</h1>
-    <p class="cp_Post__meta"><time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%b %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
+    <h2 class="cp_Post__intro hd_Leia">{{ page.intro }}</h2>
+    <p class="cp_Post__meta">&mdash; This note was published on <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">{{ page.date | date: "%B %-d, %Y" }}</time>{% if page.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ page.author }}</span></span>{% endif %}</p>
   </header>
 
   <div class="cp_Post__content tx_Prose" itemprop="articleBody">

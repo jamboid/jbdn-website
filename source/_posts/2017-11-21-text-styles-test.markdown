@@ -5,8 +5,6 @@ layout: post
 intro: This is the intro copy for this post, mostly to appear on listings of posts
 ---
 
-## Sub-Heading Eos minus doloribus ipsa
-
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
@@ -31,12 +29,9 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ip
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
 
-
-
 > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
 >
 > Lorem **ipsum dolor** sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
-
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos minus doloribus ipsa, veniam laudantium. Harum veritatis ducimus tempora quasi porro laborum, eum iusto. Debitis eveniet ipsa, ratione quidem est consectetur!
 

@@ -7,7 +7,7 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "26148",
+"creatorBuild": "26330",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -15,12 +15,6 @@
 		"oA": 1,
 		"oAP": "\/.gitignore",
 		"oF": 1
-		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
 		},
 	"\/_config.yml": {
 		"cB": 0,
@@ -137,6 +131,16 @@
 		"oA": 2,
 		"oAP": "\/source\/_includes\/jb_monogram_box.svg",
 		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/_includes\/jbdn_geo_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/build\/assets\/img\/jbdn_geo_logo.svg",
+		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -833,19 +837,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_Brand.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/assets\/scss\/components\/_cp_Copyright.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1096,6 +1087,7 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
+	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
@@ -1659,6 +1651,10 @@
 		"id-match": {
 			"active": 0,
 			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"indent": {
 			"active": 0,

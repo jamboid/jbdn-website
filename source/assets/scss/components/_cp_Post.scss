@@ -1,26 +1,36 @@
 /* != Blog Post Component */
 
 .cp_Post {
-  margin-top:em(100);
+  margin-top: em(100);
 
   &:first-child {
     margin-top: 0;
   }
 
   &__header {
-    margin:0 0 em(40);
+    margin: 0 0 em(40);
+  }
+
+  &__title {
+    margin-bottom: em(22, 48);
+  }
+
+  &__intro {
+    //font-family: $bodyfontfamily;
+    margin-bottom: em(15, 20);
+    color: var(--secondaryColour);
   }
 
   &__meta {
     //display: none;
-    text-transform: uppercase;
-    font-family:$displayfontfamily;
+    //text-transform: uppercase;
+    font-family: $displayfontfamily;
     //color:var(--secondaryColour);
-    font-size:em(16);
-    letter-spacing:em(1,16);
-    font-weight:$semibold;
-    opacity:0.5;
-    margin:0 0 em(20);
+    font-size: em(16);
+    letter-spacing: em(1, 16);
+    font-weight: $normal;
+    opacity: 0.5;
+    margin: 0 0 em(20);
   }
 }
 
@@ -28,7 +38,7 @@
 @include mq($bpRey) {
   .cp_Post {
     &__header {
-      margin-bottom:em(40);
+      margin-bottom: em(40);
     }
   }
 }
@@ -37,11 +47,11 @@
 @include mq($bpArtoo) {
   .cp_Post {
     &__header {
-      margin-bottom:em(20);
+      margin-bottom: em(20);
     }
 
     &__meta {
-      font-size:em(14);
+      font-size: em(14);
     }
   }
 }
