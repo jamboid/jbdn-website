@@ -7,7 +7,7 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26261",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -89,8 +89,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_hammer.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_hammer.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -99,8 +99,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_home.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_home.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -109,8 +109,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_pencil.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_pencil.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -119,8 +119,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_person.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_person.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -131,16 +131,6 @@
 		"oA": 2,
 		"oAP": "\/source\/_includes\/jb_monogram_box.svg",
 		"oF": 1,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
-	"\/source\/_includes\/jbdn_geo_logo.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/img\/jbdn_geo_logo.svg",
-		"oF": 2,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -352,16 +342,6 @@
 		"plM": 3758088159,
 		"prP": 0
 		},
-	"\/source\/assets\/img\/portrait_placeholder.svg": {
-		"ft": 2097152,
-		"miP": 0,
-		"oA": 2,
-		"oAP": "\/build\/assets\/img\/portrait_placeholder.svg",
-		"oF": 2,
-		"opt": 0,
-		"plM": 3758088159,
-		"prP": 0
-		},
 	"\/source\/assets\/img\/side_shape_main.svg": {
 		"ft": 2097152,
 		"miP": 0,
@@ -391,19 +371,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/css\/_all.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/_modularscale.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_modularscale.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -443,136 +410,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/base\/css\/_global-typography.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_function.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_function.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_pow.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_pow.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_respond.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_respond.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_round-px.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_round-px.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_settings.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_settings.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_sort.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_sort.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_strip-units.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_strip-units.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_sugar.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_sugar.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_target.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_target.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/base\/modularscale\/_vars.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/base\/css\/_vars.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -824,7 +661,7 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/components\/_cp_Biog.scss": {
+	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
 		"aP": 0,
 		"bl": 0,
 		"dP": 10,
@@ -832,7 +669,7 @@
 		"ft": 4,
 		"ma": 0,
 		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_Biog.css",
+		"oAP": "\/source\/assets\/scss\/css\/_cp_Brand.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -993,19 +830,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/components\/_ob_Icon.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_ob_Icon.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/assets\/scss\/components\/_st_Header.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1087,7 +911,6 @@
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
 	"autoprefixerBrowserString": "> 1%, last 2 versions, Firefox ESR, Opera 12.1",
-	"autoprefixerEnableIEGrid": 0,
 	"babelAuxiliaryCommentAfter": "",
 	"babelAuxiliaryCommentBefore": "",
 	"babelConfigFileHandlingType": 0,
