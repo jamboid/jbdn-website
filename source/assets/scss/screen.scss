@@ -14,7 +14,7 @@ The following Tools are required to process this Sass framework correctly:
 */
 
 // Variable for using modern/legacy throughout Sass files
-$legacy: false;
+$legacy: false; 
 
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
 @import "base/all";
