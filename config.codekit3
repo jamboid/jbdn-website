@@ -7,7 +7,7 @@
 		"uuidString": "1C845059-CC76-4550-A42E-7ABBF2957503"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/.gitignore": {
 		"cB": 0,
@@ -837,6 +837,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_cp_Brand.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_cp_Copyright.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -1079,7 +1092,8 @@
 	"creationDate": 530489219,
 	"displayValue": "jbdn-2016",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-ron"
+	"iconImageName": "meme-ron",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -2882,6 +2896,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {
