@@ -91,20 +91,20 @@
   }
 
   a {
-    color: var(--secondaryColour, $clrAccent);
+    color: var(--primaryColour, #{$clrPrimary} );
     text-decoration: none;
-    border-bottom: 2px solid var(--secondaryColour, $clrAccent);
+    border-bottom: 2px solid var(--secondaryColour, #{$clrAccent});
 
     &:hover,
     &:focus,
     &:active {
-      color: var(--primaryColour, $clrPrimary);
+      color: var(--secondaryColour, #{$clrAccent});
     }
   }
 
   blockquote {
     //font-size: 1.3em;
-    
+
     font-family: $displayfontfamily;
 
     > * {

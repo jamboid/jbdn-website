@@ -2,10 +2,10 @@
 
 .ob_Icon {
   &__cutout {
-    fill:var(--iconCutout, $clrBackground) !important;
+    fill:var(--iconCutout, #{$clrBackground}) !important;
   }
 
   &__shadow {
-    fill:var(--iconShadow, $clrAccent) !important;
+    fill:var(--iconShadow, #{$clrAccent}) !important;
   }
 }
