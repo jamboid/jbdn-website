@@ -16,12 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -95,8 +89,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_hammer.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_hammer.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -105,8 +99,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_home.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_home.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -115,8 +109,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_pencil.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_pencil.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -125,8 +119,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/icon_person.svg",
-		"oF": 3,
+		"oAP": "\/source\/_includes\/icon_person.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -137,6 +131,16 @@
 		"oA": 2,
 		"oAP": "\/source\/_includes\/jb_monogram_box.svg",
 		"oF": 1,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/_includes\/jbdn_geo_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/_includes\/jbdn_geo_logo.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -352,8 +356,8 @@
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
-		"oAP": "\/build\/assets\/img\/portrait_placeholder.svg",
-		"oF": 2,
+		"oAP": "\/source\/assets\/img\/portrait_placeholder.svg",
+		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
 		"prP": 0
@@ -377,6 +381,12 @@
 		"oF": 2,
 		"sC": 3,
 		"tS": 0
+		},
+	"\/source\/assets\/scss\/.sass-cache": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/assets\/scss\/.sass-cache",
+		"oF": 0
 		},
 	"\/source\/assets\/scss\/base\/_all.scss": {
 		"aP": 0,
@@ -1051,7 +1061,7 @@
 		"oA": 0,
 		"oAP": "\/build\/assets\/css\/screen.css",
 		"oF": 2,
-		"oS": 3,
+		"oS": 2,
 		"uL": 1
 		},
 	"\/source\/index.html": {

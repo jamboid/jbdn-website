@@ -1,27 +1,31 @@
 /* != Article Links component */
 
 .cp_ArticleLinks {
-  margin:50px 0;
+  margin: 50px 0;
 
   &__link {
     display: block;
     text-decoration: none;
-    margin:0 0 2em;
+    margin: 0 0 2em;
   }
 
   &__title {
-    color:var(--secondaryColour, $clrAccent);
+    margin: 0 0 0.4em;
+
+    span {
+      border-bottom: 3px solid var(--secondaryColour, $clrAccent);
+    }
   }
 
   &__intro {
-    font-size:em(20);
-    margin:0 0 em(12,20);
+    font-size: em(20);
+    margin: 0 0 em(12, 20);
   }
 
   &__meta {
-    font-family:$displayfontfamily;
-    font-size:em(14);
+    font-family: $displayfontfamily;
+    font-size: em(14);
     //text-transform: uppercase;
-    color:$clrLightGrey;
+    color: $clrLightGrey;
   }
 }

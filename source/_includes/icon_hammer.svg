@@ -7,11 +7,11 @@
     <polygon class="ob_Icon__shadow" fill="#45C0FF" points="33.648 16.849 40.012 23.213 28.698 34.527 22.335 28.163 11.021 39.477 4.657 33.113 15.971 21.799 10.314 16.142 21.627 4.828 27.284 10.485 30.113 7.657 36.477 14.021"/>
     <polygon class="ob_Icon__cutout"  fill="#FFF" points="30.648 13.849 37.012 20.213 25.698 31.527 19.335 25.163 8.021 36.477 1.657 30.113 12.971 18.799 7.314 13.142 18.627 1.828 24.284 7.485 27.113 4.657 33.477 11.021"/>
     <g transform="rotate(45 16.567 19.567)">
-      <use fill="#FFF" xlink:href="#icon_hammer-a"/>
+      <use class="ob_Icon__cutout" fill="#FFF" xlink:href="#icon_hammer-a"/>
       <rect width="6" height="33" x="13.567" y="3.067" stroke="#3F3F3F" stroke-width="3"/>
     </g>
     <g transform="rotate(45 21.163 15.678)">
-      <use fill="#FFF" xlink:href="#icon_hammer-b"/>
+      <use class="ob_Icon__cutout" fill="#FFF" xlink:href="#icon_hammer-b"/>
       <rect width="23" height="13" x="9.663" y="9.178" stroke="#3F3F3F" stroke-width="3"/>
     </g>
   </g>

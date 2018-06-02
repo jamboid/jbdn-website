@@ -14,7 +14,7 @@ The following Tools are required to process this Sass framework correctly:
 */
 
 // Variable for using modern/legacy throughout Sass files
-$legacy: false;
+$legacy: false; 
 
 /* Framework - Variables, Mixins, Functions, Resets, Placeholders */
 @import "base/all";
@@ -42,6 +42,7 @@ $legacy: false;
 @import "components/cp_SiteTitle";
 @import "components/cp_Brand";
 @import "components/cp_Nav";
+@import "components/cp_PageTitle";
 @import "components/cp_MainContent";
 @import "components/cp_ArticleLinks";
 @import "components/cp_Post";

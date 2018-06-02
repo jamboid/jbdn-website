@@ -7,7 +7,7 @@
   }
 
   &__image {
-    width: 94px;
+    width: 126px;
     height: auto;
   }
 }
@@ -16,7 +16,7 @@
 @include mq($bpHan) {
   .cp_Brand {
     &__image {
-      width: 60px;
+      width: 75px;
     }
   }
 }

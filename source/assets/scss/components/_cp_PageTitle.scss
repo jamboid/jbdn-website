@@ -2,14 +2,32 @@
 
 .cp_PageTitle {
   &__title {
-    display: inline-block;
-    color:$clrDarkGrey;
-    margin-bottom:0.5em;
+    color:var(--primaryColour, $clrPrimary);
+    padding-bottom: 20px;
+    border-bottom:3px solid rgba(0,0,0,0.05);
+    margin-bottom:0.8em;
+  }
+
+  .ob_Icon {
+    height:50px;
+    width: auto;
+    position: relative;
+    margin:0 10px -5px 0;
+    display: none;
   }
 }
 
 @include mq(plusOne($bpChewie), $limit: min) {
   .cp_PageTitle {
     max-width:90vw;
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_PageTitle {
+    .ob_Icon {
+      height:38px;
+    }
   }
 }

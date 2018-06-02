@@ -9,7 +9,10 @@ title: JBdn Homepage
 
 <main class="rg_PageContent">
   <div class="cp_PageTitle">
-    <h1 class="cp_PageTitle__title hd_Chewie">{{ page.title | escape }}</h1>
+    <h1 class="cp_PageTitle__title hd_Chewie">
+      {% include icon_pencil.svg %}
+      {{ page.title | escape }}
+    </h1>
   </div>
   <div class="cp_PageIntro tx_Prose">
     {{ content }}
@@ -20,15 +23,14 @@ title: JBdn Homepage
 
     <a href="{{post.url}}" class="cp_ArticleLinks__link" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <h2 class="cp_ArticleLinks__title hd_Luke" itemprop="name headline">{{ post.title | escape }}</h2>
+        <h2 class="cp_ArticleLinks__title hd_Luke" itemprop="name headline"><span>{{ post.title | escape }}</span></h2>
         <p class="cp_ArticleLinks__intro">{{ post.intro }}</p>
-        <p class="cp_ArticleLinks__meta">This note was published on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%b %-d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
+        <p class="cp_ArticleLinks__meta">&mdash; This note was published on <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">{{ post.date | date: "%B %d, %Y" }}</time>{% if post.author %} • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">{{ post.author }}</span></span>{% endif %}</p>
       <!-- <div class="cp_Post__content tx_Prose" itemprop="articleBody">
         {{ post.content }}
       </div> -->
 
     </a>
-
 
   {% endfor %}
   </div>
