@@ -6,6 +6,7 @@ body {
   --accentColour: #{$clrAccent};
   --accentColourShadow: #{rgba($clrAccent,0.5)};
   --backgroundColour: #{$clrBackground};
+  --dividerColour: #{rgba($clrPrimary,0.1)};
   --iconDark: #{$clrPrimary};
   --iconLight: #{$clrWhite};
   --iconCutout: #{$clrBackground};
