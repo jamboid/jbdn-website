@@ -16,7 +16,16 @@
 @include mq($bpHan) {
   .cp_Brand {
     &__image {
-      width: 75px;
+      width: 90px;
+    }
+  }
+}
+
+/* !== Breakpoint */
+@include mq($bpArtoo) {
+  .cp_Brand {
+    &__image {
+      width: 65px;
     }
   }
 }

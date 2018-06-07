@@ -18,14 +18,14 @@
   &__intro {
     //font-family: $bodyfontfamily;
     margin-bottom: em(15, 20);
-    color: var(--secondaryColour);
+    color: var(--accentColour);
   }
 
   &__meta {
     //display: none;
     //text-transform: uppercase;
     font-family: $displayfontfamily;
-    //color:var(--secondaryColour);
+    //color:var(--accentColour);
     font-size: em(16);
     //letter-spacing: em(1, 16);
     font-weight: $normal;

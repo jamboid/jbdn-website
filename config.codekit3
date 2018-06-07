@@ -1180,6 +1180,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_ob_Image.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_ob_Image.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_st_Header.scss": {
 		"aP": 0,
 		"bl": 0,

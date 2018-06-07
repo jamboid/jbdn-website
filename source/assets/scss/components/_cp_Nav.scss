@@ -17,7 +17,7 @@
     &:after {
       width: 100%;
       height: 3px;
-      background: var(--secondaryColour, $clrSecondary);
+      background: var(--accentColour, $clrSecondary);
       bottom: -2px;
       opacity: 0;
       transition: all 0.15s ease-in-out;
@@ -51,6 +51,31 @@
   .cp_Nav {
     &__menuItem {
       margin: 0 12px;
+    }
+
+    &__link {
+      &:after {
+        height: 2px;
+      }
+
+      &:hover,
+      &:focus,
+      &.active {
+
+        &:after {
+          bottom: -6px;
+
+        }
+      }
+    }
+
+    &__icon {
+      min-height:33px;
+      text-align: center;
+
+      svg {
+        max-height:30px;
+      }
     }
   }
 }

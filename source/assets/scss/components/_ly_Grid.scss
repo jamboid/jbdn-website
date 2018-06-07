@@ -6,7 +6,7 @@
     max-width: 100%;
     min-height: 100vh;
     background: $clrBackground;
-    border-right: 40px solid var(--secondaryColour, $clrSecondary);
+    border-right: 40px solid var(--accentColour, $clrSecondary);
     grid-template-columns: 200px repeat(4, minmax(10vw, 175px)) auto;
     grid-column-gap: 30px;
     grid-row-gap: 30px;
@@ -14,7 +14,10 @@
   }
 
   /* !== Regions */
-  .rg_PageContent,
+  .rg_PageContent {
+    grid-column: 2 / span 4;
+  }
+
   .rg_PageFooter {
     grid-column: 2 / span 4;
   }
@@ -38,7 +41,13 @@
     grid-row: 2 / span 1;
   }
 
+  .cp_Portrait {
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 1;
+  }
+
   .rg_PageFooter {
+    font-family: $displayfontfamily;
     padding: 30px 0 0;
     border-top: 1px solid $clrVeryLightGrey;
     grid-row: 3 / span 1;

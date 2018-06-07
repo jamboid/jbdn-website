@@ -3,8 +3,8 @@
 /* Rules for <html> and <body> go here */
 body {
   --primaryColour: #{$clrPrimary};
-  --secondaryColour: #{$clrAccent};
-  --secondaryColourShadow: #{rgba($clrAccent,0.5)};
+  --accentColour: #{$clrAccent};
+  --accentColourShadow: #{rgba($clrAccent,0.5)};
   --backgroundColour: #{$clrBackground};
   --iconDark: #{$clrPrimary};
   --iconLight: #{$clrWhite};
