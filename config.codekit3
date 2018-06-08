@@ -1024,6 +1024,19 @@
 		"oS": 0,
 		"uL": 1
 		},
+	"\/source\/assets\/scss\/components\/_cp_Footer.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "\/source\/assets\/scss\/css\/_cp_Footer.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/source\/assets\/scss\/components\/_cp_MainContent.scss": {
 		"aP": 0,
 		"bl": 0,

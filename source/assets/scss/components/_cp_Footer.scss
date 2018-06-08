@@ -1,0 +1,37 @@
+
+.cp_Footer {
+  &__biogImage {
+    grid-column: 1 / span 1;
+  }
+
+  &__biogDetails {
+    grid-column:2 / span 3;
+  }
+
+  &__copyright {
+    font-family:$displayfontfamily;
+    font-size:em(16);
+    font-weight:$semibold;
+    opacity: 0.5;
+    grid-column:2 / span 3;
+  }
+
+  &__biogImage {
+    grid-column: 1 / span 1;
+  }
+}
+
+.cp_Copyright,
+.cp_SocialLinks {
+  grid-column: 2 / span 1;
+  justify-self: end;
+}
+
+.cp_Copyright {
+  grid-row: 2 / span 1;
+}
+
+.cp_SocialLinks {
+  grid-row: 1 / span 1;
+  align-self: start;
+}
