@@ -16,12 +16,6 @@
 		"oAP": "\/.gitignore",
 		"oF": 1
 		},
-	"\/.sass-cache": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/.sass-cache",
-		"oF": 0
-		},
 	"\/_config.yml": {
 		"cB": 0,
 		"ft": 8192,
@@ -238,6 +232,161 @@
 		"pME": 1,
 		"rFN": 0,
 		"uCM": 0
+		},
+	"\/source\/assets\/_site\/img\/Icon\/Home.png": {
+		"ft": 32768,
+		"iS": 990,
+		"oA": 0,
+		"oAP": "\/source\/assets\/_site\/img\/Icon\/Home.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/_site\/img\/icon_github.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_github.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_hammer.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_hammer.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_home.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_home.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_instagram.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_instagram.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_pencil.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_pencil.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_person.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_person.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/icon_twitter.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/icon_twitter.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/jb_main_logo.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/jb_main_logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/jb_pixel_face.png": {
+		"ft": 32768,
+		"iS": 18763,
+		"oA": 0,
+		"oAP": "\/source\/assets\/_site\/img\/jb_pixel_face.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"\/source\/assets\/_site\/img\/jb_typemark.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/jb_typemark.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/portrait_placeholder.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/portrait_placeholder.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/img\/side_shape_main.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/source\/assets\/_site\/img\/side_shape_main.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/source\/assets\/_site\/js\/main.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/source\/assets\/_site\/js\/min\/main-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"\/source\/assets\/_site\/scss\/screen.scss": {
+		"aP": 0,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/source\/assets\/_site\/css\/screen.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
 		},
 	"\/source\/assets\/img\/_INLINE_IMAGES_GO_HERE.txt": {
 		"cB": 0,
@@ -836,19 +985,6 @@
 		"oS": 0,
 		"uL": 1
 		},
-	"\/source\/assets\/scss\/components\/_cp_Biog.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_Biog.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
 	"\/source\/assets\/scss\/components\/_cp_Brand.scss": {
 		"aP": 0,
 		"bl": 0,
@@ -858,19 +994,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/source\/assets\/scss\/css\/_cp_Brand.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/source\/assets\/scss\/components\/_cp_Copyright.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/source\/assets\/scss\/css\/_cp_Copyright.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
