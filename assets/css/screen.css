@@ -496,7 +496,6 @@ h1, h2, h3, h4, h5, h6 {
         width: 100%; }
       .gd_PriSec .gd_Sec {
         order: 3; } }
-
 /* != Stage - Homepage */
 .st_Homepage {
   min-height: 100vh; }
@@ -580,30 +579,23 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   background-color: #dcdcdc;
   line-height: 0; }
+  .cp_Social__link svg {
+    max-height: 40px;
+    max-width: 40px; }
   .cp_Social__link path {
     transition: fill 0.1s ease-out; }
   .cp_Social__link:hover, .cp_Social__link:focus, .cp_Social__link:active {
     background-color: #3c3c44; }
     .cp_Social__link:hover path, .cp_Social__link:focus path, .cp_Social__link:active path {
       fill: #fff !important; }
-
-.cp_Social__svg {
-  width: 45px;
-  height: 45px; }
-
-/* If media queries are supported... */
-@media screen and (max-width: 62.5em) {
-  .cp_Social__link {
-    padding: 1.5vw; }
-  .cp_Social__svg {
-    width: 4.5vw;
-    height: 4.5vw; } }
+    .cp_Social__link:hover path.invert, .cp_Social__link:focus path.invert, .cp_Social__link:active path.invert {
+      fill: #3c3c44 !important; }
 
 /* If media queries are supported... */
 @media screen and (max-width: 30em) {
   .cp_Social__svg {
-    width: 30px;
-    height: 30px; }
+    max-width: 20px;
+    max-height: 20px; }
   .cp_Social__link {
     padding: 10px;
     display: block; } }
