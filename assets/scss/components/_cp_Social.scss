@@ -19,12 +19,6 @@
     background-color:$clrVeryLightGrey;
     line-height: 0;
 
-    svg {
-      max-height:40px;
-      max-width:40px;
-
-    }
-
     path {
       transition:fill 0.1s ease-out;
     }
@@ -41,20 +35,26 @@
       }
     }
   }
+
+  &__svg {
+    max-height:40px;
+    max-width:40px;
+
+  }
 }
 
-// @include mq($bpVader) {
-//   .cp_Social {
-//     &__link {
-//       padding:vw(15,$bpVader);
-//     }
+@include mq($bpVader) {
+  .cp_Social {
+    &__link {
+      padding:vw(15,$bpVader);
+    }
 
-//     &__svg {
-//       max-width:vw(40,$bpVader);
-//       max-height:vw(40,$bpVader);
-//     }
-//   }
-// }
+    &__svg {
+      max-width:vw(40,$bpVader);
+      max-height:vw(40,$bpVader);
+    }
+  }
+}
 
 
 @include mq($bpArtoo) {
